@@ -1,0 +1,1883 @@
+--- Exercises-2_DesciptiveStats.pdf ---
+1 
+ 
+Statistical Methods for Computer Science 
+ 
+Exercises: Describing Data: Numerical 
+ 
+1) If you are interested in comparing variation in sales for small and large stores selling similar goods, 
+which of the following is the most appropriate measure of dispersion? 
+A) the range 
+B) the interquartile range 
+C) the standard deviation 
+D) the coefficient of variation 
+ 
+ 
+ 
+2) Suppose you are told that the mean of a sample is below the median. What does this information 
+suggest about the distribution? 
+A) The distribution is symmetric. 
+B) The distribution is skewed to the right or positively skewed. 
+C) The distribution is skewed to the left or negatively skewed. 
+D) There is insufficient information to determine the shape of the distribution. 
+ 
+ 
+ 
+3) For the following scatter plot, what would be your best estimate of the correlation coefficient? 
+ 
+A) -0.8 
+B) -1.0 
+C) 0.0 
+D) -0.3 
+ 
+ 
+4) Given a set of 25 observations, for what value of the correlation coefficient would we be able to say 
+that there is evidence that a relationship exists between the two variables? 
+A) 
+ ≥ 0.40 
+B) 
+  ≥ 0.35 
+C) 
+  ≥ 0.30 
+D) 
+  ≥ 0.25 
+ 
+ 
+5) Which of the following statements is true about the correlation coefficient and covariance? 
+A) The covariance is the preferred measure of the relationship between two variables since it is generally 
+larger than the correlation coefficient. 
+B) The correlation coefficient is a preferred measure of the relationship between two variables since its 
+calculation is easier than the covariance. 
+C) The covariance is a standardized measure of the linear relationship between two variables. 
+2 
+ 
+D) The covariance and corresponding correlation coefficient are represented by different signs, one is 
+negative while the other is positive and vice versa. 
+ 
+ 
+6) For the following scatter plot, what would be your best estimate of the correlation coefficient? 
+ 
+A) 1.0 
+B) 0.7 
+C) 0.3 
+D) 0.1 
+ 
+ 
+7) Which of the following descriptive statistics is least affected by outliers? 
+A) mean 
+B) median 
+C) range 
+D) standard deviation 
+ 
+ 
+8) Which of the following statements is true? 
+A) The correlation coefficient is always greater than the covariance. 
+B) The covariance is always greater than the correlation coefficient. 
+C) The covariance may be equal to the correlation coefficient. 
+D) Neither the covariance nor the correlation coefficient can be equal to zero. 
+ 
+ 
+9) Which measures of central location are not affected by extremely small or extremely large data values? 
+A) arithmetic mean and median 
+B) median and mode 
+C) mode and arithmetic mean 
+ 
+ 
+ 
+3 
+ 
+        USE THIS INFORMATION TO ANSWER THE NEXT QUESTIONS 
+A recent survey asked respondents about their monthly purchases of raffle tickets. The monthly 
+expenditures, in dollars, of ten people who play the raffle are 23, 15, 11, 20, 28, 35, 13, 10, 20, and 24. 
+ 
+21) What can we say about the shape of the distribution of monthly purchases of raffle tickets? 
+A) Skewed to the left 
+B) Skewed to the right 
+C) Approximately bell-shaped 
+D) None of the above 
+       
+22) Which of the following statements is not true? 
+A) The 75th percentile is equal to 23.5. 
+B) The median is equal to the mode. 
+C) The mean is 19.9. 
+D) The distribution is approximately symmetric. 
+       
+23) Over the past 10 years, the return on Stock A has averaged 8.4% with a standard deviation of 2.1%. 
+The return on Stock B has averaged 3.6% with a standard deviation of 0.9%. Which of the following 
+statements is true? 
+A) Stock A has smaller relative variation than Stock B. 
+B) Stock B has smaller relative variation than Stock A. 
+C) Both stocks exhibit the same relative variation. 
+D) Unable to tell with the given information. 
+ 
+24) The median value of the data values 12, 32, 48, 8, 22, 9, 30, and 18 equals: 
+A) 20 
+B) 22 
+C) 24 
+D) 26 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  USE THIS INFORMATION TO ANSWER THE NEXT QUESTIONS 
+The police lieutenant in charge of the traffic division reviews the number of traffic citations issued by each 
+of the police officers in his division. He finds that the mean number of citations written by each officer is 
+23.2 citations per day, with a standard deviation of 3.1. Assume that the distribution of the number of 
+tickets issued is approximately bell-shaped. 
+       
+26) The coefficient of variation for the number of citations is: 
+A) 13.36% 
+B) 7.48% 
+C) 6.68 
+D) Cannot be determined without the sample size 
+ 
+ 27) Suppose that you are also told that the median for these data was 19.3. Which of the following 
+statements is true about the shape of the distribution? 
+A) It is skewed to the right. 
+B) It is skewed to the left. 
+C) It is approximately symmetric. 
+D) Cannot be determined without more information 
+4 
+ 
+       
+30) What is the relationship among the mean, median, and mode in a symmetrical distribution? 
+A) They are all equal. 
+B) The mean is always the smallest value. 
+C) The mean is always the largest value. 
+D) The mode is the largest value.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TRUE/FALSE QUESTIONS 
+ 
+ 
+102) The sample covariance must take a value between -1 and +1 inclusive. 
+       
+103) The sample covariance may never be negative. 
+       
+104) The correlation coefficient measures the strength of a linear relationship between two variables. 
+       
+105) A correlation coefficient of zero indicates a lack of relationship between the two variables of interest. 
+       
+106) The value of the correlation coefficient may be used to confirm a non-linear relationship. 
+       
+107) The mean is generally the preferred measure of central tendency to describe numerical data, but not 
+categorical data. 
+ 
+108) For any set of numerical data values arranged in an ascending or descending order, the value of the 
+observation in the center is called the weighted mean. 
+5 
+ 
+       
+109) Categorical data are best described by the mode. 
+       
+110) The median should always be preferred to the mean when the population or sample is skewed to the 
+right or left. 
+       
+111) One possible source of skewness is the presence of outliers, and sometimes skewness is simply 
+inherent in the distribution. 
+       
+112) Although the range measures the total spread of the data, the interquartile range (IQR) measures 
+only the spread of the middle 50% of the data. 
+       
+113) In a negatively skewed distribution, the mean is always greater than the median. 
+ 
+114) The coefficient of variation measures variability in a positively skewed data set relative to the size of 
+the median. 
+       
+115) When the data values are arranged in an ascending order, the third quartile (Q3) is located at the 
+ position, and first quartile (Q1) is located at the 
+  position. 
+       
+116) The five-number summary refers to the five descriptive measures: minimum, mean, median, mode, 
+and maximum; therefore it is sometimes known as the five-m summary. 
+       
+117) If the interquartile range for a set of data is 10 minutes, this means that the data have a spread of 
+only 10 minutes. 
+       
+118) Since the interquartile range takes into account only two of the data values, it is susceptible to 
+considerable distortion if there are unusual numbers of extreme observations (outliers). 
+       
+119) Although the range and interquartile range measure the spread of data, both measures take into 
+account only two of the data values, regardless of the size of the data. 
+ 
+120) For any symmetrical distribution, the standard deviation is equal to the variance. 
+ 
+6 
+ 
+        USE THIS INFORMATION TO ANSWER THE NEXT QUESTIONS 
+A researcher is interested in examining how the net wealth of individuals changes over the course of their 
+lifetimes. She has collected the following data regarding the age X, in years, and net worth Y, measured 
+in thousands of dollars, of 12 individuals in the form of (x, y) pairs: (24, 153), (34, 201), (38, 297), (83, 
+139), (77, 167), (32, 123), (71, 247), (49, 263), (54, 352), (35, 321), (65, 453), and (30, 54). 
+ 
+199) Prepare a scatter plot of this data. 
+ 
+       
+200) What conclusions can you draw about the relationship between age and net wealth? 
+       
+201) Calculate the correlation coefficient between the age and net worth of individuals. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  USE THIS INFORMATION TO ANSWER THE NEXT QUESTIONS 
+The police lieutenant in charge of the traffic division has reviewed the number of traffic citations issued 
+per day by each of the 10 police officers in his division. The data were: 13, 21, 12, 34, 31, 13, 22, 26, 25, 
+and 23. 
+ 
+203) What is the standard deviation for the number of citations issued per day? 
+       
+204) What is the interquartile range for the number of citations issued per day? 
+ 
+7 
+ 
+        USE THIS INFORMATION TO ANSWER THE NEXT QUESTIONS 
+You are interested in looking at the relationship between the number of people on the sales force and the 
+dollar volume of sales. The following data show gross sales, Y, measured in millions of dollars, and the 
+number of people on the sales force, X, in the form of (x, y) pairs for 12 people: (15, 34), (24, 55), (27, 
+67), (16, 31), (19, 32), (26, 44), (19, 39), (23, 46), (26, 53), (22, 43), (28, 45), and (17, 41). 
+ 
+205) Prepare a scatter plot of this data. 
+ 
+       
+206) What conclusions can you draw about the relationship between the size of the sales force and gross 
+sales? 
+       
+207) Calculate the correlation coefficient between the size of the sales force and gross sales. 
+ 
+ 
+ 
+  USE THIS INFORMATION TO ANSWER THE NEXT QUESTIONS 
+Ahmed is trying to figure out the relationship between daily sales from his ice cream truck and the daily 
+temperature in Dearborn, Michigan during the month of August. He has collected data on sales Y, 
+measured in dollars, and temperature X, measured in Fahrenheit degrees, over the past 14 days in the 
+form of (x, y) pairs: (72, 232), (77, 242), (73, 219), (69, 214), (68, 262), (72, 218), (75, 263), (70, 206), 
+(79, 300), (73, 256), (68, 173), (75, 210), (81, 296), and (68, 232). 
+ 
+  
+ 
+8 
+ 
+ 
+ 
+209) Prepare a scatter plot of this data. 
+       
+210) What conclusions can you draw about the relationship between ice cream sales and daily 
+temperature? 
+ 
+211) Calculate the correlation coefficient between ice cream sales and temperature. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+        USE THIS INFORMATION TO ANSWER THE NEXT QUESTIONS 
+Some people would argue that the trend of consumers toward purchasing large sport utility vehicles 
+(SUVs) has been detrimental to the environment. The following data show the vehicle weight X, 
+measured in tons, and the corresponding fuel efficiency Y, measured by the average miles per gallon 
+(mpg), in the form of (x,y) pairs for 10 vehicles: (1.9, 26.5), (2, 23.2), (2.4, 22.1), (1.8, 26), (2.4, 22.9), 
+(2.1, 21.5), (1.8, 25.3), (2.5, 19.3), (1.8, 27.4), and (1.6, 27.6). 
+ 
+219) Prepare a scatter plot of this data. 
+ 
+       
+220) What conclusions can you draw about the relationship between weight and fuel efficiency? 
+       
+221) Calculate the correlation coefficient between vehicle weight and fuel efficiency. 
+ 
+ 
+ 
+ 
+ 
+  USE THIS INFORMATION TO ANSWER THE NEXT QUESTIONS 
+The annual percentage returns on two stocks over a 7-year period were as follows: 
+ 
+Stock A: 4.01% 14.31% 19.01% -14.69% -26.49% 8.01% 5.81% 
+Stock B: 6.51% 4.41% 3.81% 6.91% 8.01% 5.81% 5.11% 
+ 
+226) Compare the means of these two population distribution. 
+ 
+9 
+ 
+227) Compare the standard deviations of these two population distributions. 
+       
+228) Compute an appropriate measure of dispersion for both stocks to measure the risk of these 
+investment opportunities. Which stock is more volatile? 
+       
+229) Calculate the coefficient of variation for the following sample data: 13.2, 14.7, 17.2, 12.1, 21.8, 8.4, 
+14.3, 11.0, 9.3, and 8.7 
+ 
+ 
+ 
+ 
+ 
+ 
+        USE THIS INFORMATION TO ANSWER THE NEXT QUESTIONS 
+In a recent survey, 12 students at a local university were asked approximately how many hours per week 
+they spend on the Internet. Their responses were: 13, 0, 5, 8, 22, 7, 3, 0, 15, 12, 13, and 17. 
+ 
+232) What are the mean and standard deviation for this data? 
+       
+233) What is the coefficient of variation for this data? 
+       
+234) From the data presented above, calculate the interquartile range. 
+ 
+ 
+ 
+ 
+ 
+ 
+        USE THIS INFORMATION TO ANSWER THE NEXT QUESTIONS 
+In a recent survey, 200 top executives were asked how many hours they spend each year in community 
+service. The data are presented below. 
+ 
+# of Hours 
+0 but 
+< 20 
+20 but 
+< 40 
+40 but 
+ < 60 
+60 but 
+< 80 
+80 but 
+ < 100 
+100 but 
+< 120 
+120 but 
+< 140 
+# of Executives 11 27 33 53 47 22 7 
+ 
+235) Calculate the quantities
+ , 
+ , and 
+ . 
+       
+236) What is the estimated mean amount of time spent by these executives in community service? 
+       
+237) What is the estimated standard deviation for this data? 
+10 
+ 
+        USE THIS INFORMATION TO ANSWER THE NEXT QUESTIONS 
+The number of students eating breakfast at the school dining commons was recorded over 110 days last 
+semester. These data are presented below. 
+ 
+# of Students 
+160 but 
+< 190 
+190 but 
+< 220 
+220 but 
+< 250 
+250 but  
+< 280 
+280 but  
+< 310 
+# of Days 11 27 42 23 7 
+ 
+238) Calculate the quantities 
+ , 
+ , and 
+ . 
+       
+239) What is the estimated mean number of students showing up for breakfast? 
+       
+240) What is the estimated standard deviation for this data? 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+        USE THIS INFORMATION TO ANSWER THE NEXT QUESTIONS 
+A small accounting office is trying to determine its staffing needs for the coming tax season. The manager 
+has collected the following data: 46, 27, 79, 57, 99, 75, 48, 89, and 85. These values represent the 
+number of returns the office completed each year over the entire nine years it has been doing tax returns. 
+ 
+241) For this data, what is the mean number of tax returns completed each year? 
+       
+242) For this data, what is the median number of tax returns completed each year? 
+       
+243) For this data, what is the variance of the number of tax returns completed each year? 
+       
+244) For this data, what is the interquartile for the number of tax returns completed each year? 
+       
+245) For this data, what is the coefficient of variation for the number of tax returns completed each year? 
+ 
+246) Compute the mean, standard deviation and interquartile range for the following sample data: 12.2, 
+15.9, 8.1, 19.2, 13.7, 7.2, 12.2, 10.9, 5.4, and 16.8. 
+       
+247) The manager of 45 sales people examined their monthly expenditures on entertaining clients. He 
+found that the mean amount was $237.50 with a standard deviation of $27.40. Assuming the data is bell-
+shaped, would a claim for the amount of $300 be considered unlikely? Why or why not? 
+       
+248) A researcher interested in determining the average monthly expenditures of college students on 
+DVDs finds that for a sample of 25 students, the mean expenditure was $24.40, and the median 
+expenditure was $21.76. Specify the shape of the histogram for this data. Does this shape make sense? 
+Why? 
+       
+249) The following values represent the annual snowfall, measured in inches, at a local ski resort over the 
+past 10 years: 123, 87, 143, 133, 182, 176, 96, 104, 201, and 152. What is the mean snowfall over the 
+past 10 years? What is the standard deviation? 
+ 
+ 
+
+--- Exercises-3_Probability.pdf ---
+Statistical Methods for Computer Science
+Exercises: Probability
+1) Which of the following is an example of a random experiment?
+A) A customer inspects a delivery and finds an error.
+B) Marketing budgets a 10% increase in advertising.
+C) The post office misplaces a letter.
+D) A student increases her average study time/week and improves her grades.
+2) The set of all possible outcomes from a random experiment is called the sample:
+A) population.
+B) space.
+C) probability.
+D) event.
+3) Which of the following is not an example of a random experiment?
+A) daily change of stock market index prices
+B) customer makes a purchase or not
+C) a survey to rate quality of service
+D) coin-toss, heads or tails
+4) The possible outcomes from a random experiment are called:
+A) sample space.
+B) parameters.
+C) basic groups.
+D) basic outcomes.
+5) A subset of outcomes is defined as a(n):
+A) sample.
+B) event.
+C) outcome.
+D) probability.
+6) When events have no common basic outcomes, they are said to be:
+A) mutually exclusive.
+B) mutually related.
+C) mutually apart.
+D) collectively exhaustive.
+7) If the union of several events covers the entire sample space, it is said these events are:
+A) mutually exclusive.
+B) mutually related.
+C) mutually apart.
+D) collectively exhaustive.
+8) The proportion of times that an event will occur, assuming that all outcomes in a sample space are 
+equally likely to occur, is called:
+A) objective probability.
+B) classical probability.
+C) relative frequency probability.
+D) subjective probability.
+1
+9) ________ probability is the number of events in the population that meet the condition divided by the 
+total number in the population.
+A) Objective
+B) Classical
+C) Relative frequency
+D) Subjective
+10) The expression of an individual's degree of belief about the chance that an event will occur is called 
+________ probability.
+A) objective
+B) classical
+C) relative frequency
+D) subjective
+2
+THE NEXT QUESTIONS ARE BASED ON THE FOLLOWING INFORMATION:
+Suppose you roll a pair of dice. Let A be the event that you observe an even number. Let B be the event 
+that you observe a number greater than seven.
+11) What is the intersection of events A and B?
+A) [8, 10, 12]
+B) [7, 8, 9, 10, 11, 12]
+C) [2, 4, 6, 8, 10, 12]
+D) [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+12) What is the union of events A and B?
+A) [8, 9, 10, 11, 12]
+B) [8, 10, 12]
+C) [2, 4, 6, 8, 9, 10, 11, 12]
+D) [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+13) What is the complement of event A?
+A) [8, 9, 10, 11, 12]
+B) [3, 5, 7, 9, 11]
+C) [1, 5, 10, 11, 12]
+D) [8, 10, 12]
+14) What is the complement of event B?
+A) [3, 5, 7, 9, 11]
+B) [2, 4, 6, 8, 10, 12]
+C) [2, 3, 4, 5, 6, 7]
+D) [7, 8, 9, 10, 11, 12]
+15) What is 
+  ∩ B?
+A) [9, 11]
+B) [2, 3, 4, 6]
+C) [5, 7, 8, 10, 12]
+D) [3, 5]
+16) What is A ∩ 
+ ?
+A) [9, 11]
+B) [8, 10, 12]
+C) [3, 5, 7]
+D) [2, 4, 6]
+17) What is 
+  ∩ 
+ ?
+A) [2, 4, 6]
+B) [3, 5, 7]
+C) [8, 9, 10, 11, 12]
+D) [∅]
+18) What is 
+  ∪ 
+ ?
+A) [2, 3, 4, 5, 6, 7]
+B) [3, 5, 7]
+C) [2, 3, 4, 5, 6, 7, 9, 11]
+D) [2, 4, 6]
+19) What is 
+  ∪ B?
+A) [4, 5, 7, 8, 11, 12]
+B) [8, 9, 10, 11, 12]
+3
+C) [2, 3, 4, 5, 6, 7]
+D) [3, 5, 7, 8, 9, 10, 11, 12]
+4
+THE NEXT QUESTIONS ARE BASED ON THE FOLLOWING INFORMATION:
+The production manager at a local manufacturing plant is concerned about work stoppages in the four 
+production lines. In particular, the manager is evaluating the likelihood of the next stoppage occurring on 
+production line 1.
+30) If each of the lines is equally likely to have the next stoppage, the probability that production line 1 is 
+stopped next is 25%. This is an example of:
+A) subjective probability.
+B) classical probability.
+C) relative frequency probability.
+31) Based on previous stoppage records, the manager figures that the probability that production line 1 is 
+stopped next is 25%. This is an example of:
+A) subjective probability.
+B) classical probability.
+C) relative frequency probability.
+32) Based on his knowledge of the causes of stoppages, the manager states that the probability that 
+production line 1 is stopped next is 25%. This is an example of:
+A) subjective probability.
+B) classical probability.
+C) relative frequency probability.
+THE NEXT QUESTIONS ARE BASED ON THE FOLLOWING INFORMATION:
+In a furniture manufacturing plant, a customer survey indicates that blemishes in the finish are a major 
+concern. The table shown below displays a quality manager's probability assessment of the number of 
+defects in the finish of new furniture.
+Number of Defects 0 1 2 3 4 5
+Probability 0.34 0.25 0.19 0.11 0.07 0.04
+33) Let event A be that there are more than three defects and let event B be that there are four or fewer 
+defects. Which of the following statements is true?
+A) P(A ∩ B) = 0.18
+B) P(A ∪ B) = 0.07
+C) Events A and B are collectively exhaustive.
+D) Events A and B are mutually exclusive.
+34) Let event A be that there are more than two defects and let event B be that there are four or fewer 
+defects. Which of the following statements is true?
+A) P(A ∩ B) = 0.18
+B) P(A ∪ B) = 0.07
+C) P(
+ ) = 0.58
+D) P(
+ ) = 0.89
+35) Let A be the event that there is at least one defect and let event B be that there is at most three 
+defects. Which of the following statements is true?
+A) P(A ∩ B) = 0.55
+B) P(A ∪ B) = 0.96
+C) P(A) = 0.34
+D) P(
+ ) = 0.89
+36) A gumball machine has five different colored gumballs: red, blue, white, green, and yellow. If you buy 
+three gumballs, how many different combinations of colors could you buy?
+5
+A) 60
+B) 20
+C) 10
+D) 6
+THE NEXT QUESTIONS ARE BASED ON THE FOLLOWING INFORMATION:
+Ted's Surfboard Shop makes surfboards by hand. The number of surfboards that Ted makes in a week 
+depends on the wave conditions. Ted has estimated the following probabilities for surfboard production 
+for the next week.
+Number of Surfboards 5 6 7 8 9 10
+Probability 0.13 0.22 0.31 0.17 0.13 0.04
+37) Let event A be that Ted produces more than seven surfboards and let event B be that he produces 
+exactly six surfboards. Which of the following statements is true?
+A) P(A ∩ B)=0.31
+B) events A and B are collectively exhaustive
+C) P(
+  ∪ 
+ )=0.44
+D) events A and B are mutually exclusive
+38) Let event A be that Ted produces more than six surfboards, and let event B be that he produces less 
+than eight surfboards. Which of the following statements is true?
+A) P(A ∩ B) = 0.75
+B) Events A and B are collectively exhaustive.
+C) P(
+ ) = 0.53
+D) Events A and B are mutually exclusive.
+THE NEXT QUESTIONS ARE BASED ON THE FOLLOWING INFORMATION:
+The probability that interest rates on housing loans will go up in the next 6 months is estimated to be 0.20. 
+The probability that house sales will decrease is estimated to be 0.6. The probability that interest rates will 
+go up and house sales will decrease is estimated to be 0.15.
+39) The probability that interest rates increase and house sales decrease is:
+A) 0.75
+B) 0.85
+C) 0.71
+D) 0.15
+40) The probability of an increase in interest rates and not a decrease in house sales is:
+A) 0.20
+B) 0.05
+C) 0.25
+D) 0.50
+41) The probability of a decrease in house sales and not an increase in interest rates is:
+6
+A) 0.45
+B) 0.25
+C) 0.20
+D) 0.05
+42) The probability of not an increase in interest rates and not a decrease in house sales is:
+A) 0.50
+B) 0.35
+C) 0.20
+D) 0.05
+43) The probability that house sales will go down given that interest rates will go up is:
+A) 0.95
+B) 0.90
+C) 0.75
+D) 0.80
+THE NEXT QUESTIONS ARE BASED ON THE FOLLOWING INFORMATION:
+A multiple choice quiz has five questions, each with five answers, A through E. Assume you just guess on 
+all of the questions.
+44) What is the probability that you guessed on all five questions right?
+A) 0.00032
+B) 0.03125
+C) 0.20
+D) 0.50
+45) What is the probability that you get exactly three questions right?
+A) 0.00032
+B) 0.0016
+C) 0.008
+D) 0.04
+46) A research project on retention at a large university indicated that 20% of the students had a problem 
+with stress while 25% reported problems with financial resources and 15% had a problem with both. What 
+is the probability that a particular student has a problem with either stress or financial resources?
+A) 0.15
+B) 0.30
+C) 0.45
+D) 0.60
+47) The probability that an employee at a company uses illegal drugs is 0.08. The probability than an 
+employee is male is 0.55. Assuming that these events are independent, what is the probability that a 
+randomly chosen employee is a male drug user?
+A) 0.742
+B) 0.145
+C) 0.044
+D) 0.006
+48) A survey of executives revealed that 35% of them regularly read The Wall Street Journal, 20% read 
+Forbes, and 10% read both The Wall Street Journal and Forbes. What is the probability that a particular 
+7
+executive reads either The Wall Street Journal or Forbes?
+A) 0.45
+B) 0.35
+C) 0.55
+D) 0.65
+49) In a longitudinal economic development study, market research indicated that the odds of a new 
+business succeeding after five years are 1 to 9. That means that the probability of a business actually 
+succeeding is:
+A) 0.11
+B) 0.10
+C) 0.09
+D) 0.08
+50) A junior executive looking at his business attire in his closet notes that he has five suits, six shirts, and 
+three pairs of shoes. He is going on a business trip and needs to take two of each. How many different 
+combinations of outfits could he take?
+A) 680
+B) 320
+C) 450
+D) 224
+THE NEXT QUESTIONS ARE BASED ON THE FOLLOWING INFORMATION:
+A manufacturer of automobiles conducted a market survey. Eighty percent of the customers want better 
+fuel efficiency, while 55% want a vehicle navigation system and 45% percent want both features.
+54) The probability that a person wants better fuel efficiency and also a vehicle navigation system is:
+A) 0.90
+B) 0.10
+C) 0.45
+D) 0.35
+55) The probability that a person wants better fuel efficiency but not a vehicle navigation system is:
+A) 0.90
+B) 0.10
+C) 0.45
+D) 0.35
+56) The probability that a person wants a vehicle navigation system but not better fuel efficiency is:
+A) 0.90
+B) 0.10
+C) 0.45
+D) 0.35
+57) The probability that a person wants neither better fuel efficiency nor a vehicle navigation system is:
+A) 0.90
+B) 0.10
+C) 0.45
+D) 0.35
+58) The probability that a person wants either better fuel efficiency or a vehicle navigation system is:
+A) 0.90
+8
+B) 0.10
+C) 0.45
+D) 0.35
+59) The probability that a person does not want a vehicle navigation system is:
+A) 0.45
+B) 0.10
+C) 0.90
+D) 0.35
+60) The probability that a person wants a better fuel efficiency given that he wants a vehicle navigation 
+system is approximately:
+A) 0.90
+B) 0.45
+C) 0.82
+D) 0.41
+61) The probability that a person wants a vehicle navigation system given that he wants a better fuel 
+efficiency is approximately:
+A) 0.80
+B) 0.40
+C) 0.45
+D) 0.56
+62) A junior executive looking at his business attire in his closet notes that he has eight suits, six shirts, 
+and four pairs of shoes. He is going on a business trip and needs to take two of each. How many different 
+combinations of outfits could he take?
+A) 2240
+B) 3320
+C) 1680
+D) 2520
+63) The purchasing agent for a municipality has contracted with a local car dealer to purchase four cars. 
+The dealer has 25 cars on his lot; 10 red, 7 blue, 6 white, and 2 purple. If the purchasing agent has no 
+control over the colors he receives, what is the probability that he receives at least one of the purple cars?
+A) 0.33
+B) 0.30
+C) 0.36
+D) 0.39
+THE NEXT QUESTIONS ARE BASED ON THE FOLLOWING INFORMATION:
+A recent survey showed that 15% of computer programmers have experienced some form of wrist pain 
+from typing, and that 25% are taking aspirin daily. Six percent of all programmers have both experienced 
+some form of wrist pain from typing and taken aspirin on a daily basis.
+64) What is the probability that a programmer who has wrist pain takes aspirin on a daily basis?
+A) 0.40
+B) 0.24
+C) 0.57
+D) 0.66
+65) What is the probability that a programmer who takes aspirin on a daily basis has wrist pain?
+A) 0.09
+9
+B) 0.19
+C) 0.24
+D) 0.40
+66) What is the probability that a programmer has wrist pain and does not take aspirin on a daily basis?
+A) 0.25
+B) 0.15
+C) 0.19
+D) 0.09
+67) What is the probability that a programmer does not have wrist pain and does not take aspirin on a 
+daily basis?
+A) 0.75
+B) 0.66
+C) 0.85
+D) 0.25
+68) What is the probability that a programmer has wrist pain or takes aspirin on a daily basis?
+A) 0.66
+B) 0.25
+C) 0.34
+D) 0.15
+69) As the office manager for a medical office with ten doctors, you are responsible for developing the 
+roster for the on-call shift for the next three nights. How many different ways could you assign a different 
+doctor to each of the next three nights?
+A) 1020
+B) 840
+C) 720
+D) 640
+70) Which of the following statements is true?
+A) If events A and B are complements, then the intersection of A and the complement of B is the sample 
+space.
+B) If events A and B are mutually exclusive, then the intersection of A and B is the empty set.
+C) If events A and B are mutually exclusive, then the union of A and B is the sample space.
+D) If events A and B are mutually exclusive, then the union of A and B is the empty set.
+71) In a recent article it was reported that 35.4% of all high school students smoke cigarettes. 65% of 
+these students plan on going to college. What is the probability that a randomly selected student smokes 
+cigarettes and plans on going to college?
+A) 0.354
+B) 0.230
+C) 0.124
+D) 0.412
+72) An office of six people is plagued by high absenteeism. It is thought that the probability that an 
+employee is absent on a particular day is 0.03. Assuming that the event that one person is absent on a 
+particular day is independent of the absence of any other employee, what is the probability that at least 
+one employee is absent tomorrow?
+A) 0.121
+B) 0.180
+C) 0.150
+D) 0.167
+10
+73) A gumball machine has six red gumballs, four blue gumballs, and three yellow gumballs. If you buy 
+three gumballs, what is the probability that you get three different colors?
+A) 0.252
+B) 0.167
+C) 0.125
+D) 0.244
+11
+THE NEXT QUESTIONS ARE BASED ON THE FOLLOWING INFORMATION:
+Given A= {E3, E4, E8, E10} and B = {E3, E4, E6, E9}
+79) What is the intersection of A and B?
+A) E3, E4
+B) E3, E4, E6, E8, E9, E10
+C) E1, E2, E5, E7
+D) E6, E8, E9, E10
+80) What is the union of A and B?
+A) E3, E4
+B) E3, E4, E6, E8, E9, E10
+C) E1, E2, E5, E7
+D) E6, E8, E9, E10
+THE NEXT QUESTIONS ARE BASED ON THE FOLLOWING INFORMATION:
+A supplier is evaluating a firm to manufacture a subassembly. Quality data from past inspections reveal 
+the following probabilities for number of defective parts in a shipment:
+Number Defective 0 1 2 >2
+Probability 0.80 0.10 0.06 0.04
+81) What is the probability that there will be fewer than 2 defective parts in a shipment?
+A) 0.20
+B) 0.90
+C) 0.86
+D) 0.10
+82) What is the probability that the shipment will have defective parts?
+A) 0.20
+B) 0.90
+C) 0.86
+D) 0.10
+83) What is the probability that the shipment will have at least two defective parts?
+A) 0.20
+B) 0.90
+C) 0.86
+D) 0.10
+12
+THE NEXT QUESTIONS ARE BASED ON THE FOLLOWING INFORMATION:
+In a survey of top executives, it was found that 46% had either traveled internationally on business or 
+could fluently speak a foreign language. The probability that an executive who had not traveled 
+internationally could speak a foreign language was 10%. It was found that only 4% of the executives had 
+traveled internationally and could speak a foreign language.
+263) What is the probability that an executive does not speak a foreign language fluently?
+264) What is the probability that an executive has traveled internationally and could not speak a foreign 
+language fluently?
+13
+265) What is the probability that an executive has not traveled internationally and could speak a foreign 
+language fluently?
+266) Firms are increasingly asking applicants to submit to drug tests. Suppose that drug tests can identify 
+a drug user 98% of the time. However, 1% of the time the test indicates a positive result although the 
+applicant is not a drug user. If 10% of all applicants are drug users, what is the probability that a person 
+who has tested positive for drug use is not really a drug user?
+14
+THE NEXT QUESTIONS ARE BASED ON THE FOLLOWING INFORMATION:
+In a recent survey about capital punishment, 64% of the respondents said that they support capital 
+punishment. Females comprised 48% of the sample, and of the females, 46% supported capital 
+punishment.
+267) What is the probability that a randomly selected person is a female and capital punishment 
+supporter?
+15
+268) Suppose we select a capital punishment supporter so that we can ask some follow up questions. 
+What is the probability that the person we select is female?
+269) What is the probability that a randomly selected person is a male and does support capital 
+punishment?
+270) What is the probability that a randomly selected person is a male and does not support capital 
+punishment?
+271) What is the probability that a randomly selected person is a female and does not support capital 
+punishment?
+272) Suppose we select a person who does not support capital punishment, what is the probability that 
+the person is male?
+273) Suppose we select a female respondent, what is the probability that she is not a capital punishment 
+supporter?
+THE NEXT QUESTIONS ARE BASED ON THE FOLLOWING INFORMATION:
+Consider a sample space defined by events A1, A2, B1, B2. Let P(A1) = 0.40 , P(B1 ∣ A1) = 0.60 
+and P(B1 ∣ A2) = 0.70
+274) What is P(A2)?
+275) What is P(A1 ∩ B1)?
+276) What is P(A1 ∩ B2)?
+277) What is P(A2 ∩ B1)?
+278) What is P(B1)?
+279) What is P(B2)?
+280) What is P(A2 ∩ B2)?
+281) What is P(A1 ∣ B1)?
+282) What is P(A1 ∣ B2)?
+283) What is P(A2 ∣ B1)?
+284) What is P(A2 ∣ B2)?
+285) What is P(B2 ∣ A1)?
+286) What is P(B2 ∣ A2)?
+16
+
+--- Exercises-4_DiscreteRV.pdf ---
+1 
+Statistical Methods for Computer Science 
+ 
+Exercises:   Discrete Random Variables and Probability Distributions 
+ 
+1) A variable that can take on a finite and countable number of values is a ________ variable. 
+A) qualitative 
+B) discrete 
+C) continuous 
+D) Poisson 
+ 
+2) Which of the following is true about a probability distribution? 
+A) The sum of all possible outcomes must not equal 1. 
+B) The representation must be graphed, not tabular or algebraic. 
+C) The probability of each outcome must be between 0 and 1, inclusive. 
+D) The outcomes do not need to be mutually exclusive. 
+ 
+3) A random variable which takes on no more than a countable number of values is called a(n): 
+A) continuous random variable. 
+B) outcome. 
+C) statistic. 
+D) discrete random variable. 
+ 
+4) The probability distribution function can be represented in a graph once the probabilities have been: 
+A) calculated. 
+B) ordered. 
+C) alphabetized. 
+D) journalized. 
+2 
+5) The expected value of a random variable, denoted μ, is also called its: 
+A) mode. 
+B) median. 
+C) mean. 
+D) variance. 
+ 
+6) The standard deviation of a discrete random variable σ is the positive square root of its: 
+A) variance. 
+B) mean. 
+C) median. 
+D) mode. 
+ 
+7) The approach, to develop the binomial probability distribution, begins with the: 
+A) Bayes' theorem. 
+B) Empirical rule. 
+C) Venn diagram. 
+D) Bernoulli model. 
+ 
+3 
+9) The Poisson distribution can be used to approximate the binomial probabilities when the number of 
+trials n is large and at the same time the probability P is: 
+A) also large. 
+B) one. 
+C) small. 
+D) equal to λ. 
+ 
+THE NEXT QUESTIONS ARE BASED ON THE FOLLOWING: 
+The probability that a person catches a cold during the cold and flu season is 0.4. Assume that 10 people 
+are chosen at random. 
+10) What is the probability that exactly four of them will catch a cold? 
+A) 0.7502 
+B) 0.6330 
+C) 0.3670 
+D) 0.2508 
+ 
+11) What is the probability that four or more of them will catch a cold? 
+A) 0.715 
+B) 0.618 
+C) 0.546 
+D) 0.312 
+ 
+12) On average, how many of these ten people would you expect to catch a cold? 
+A) 4 
+B) 3 
+C) 2 
+D) 1 
+4 
+13) What is the standard deviation for the number of people catching a cold? 
+A) 1.549 
+B) 1.245 
+C) 1.265 
+D) 1.125 
+ 
+ 
+THE NEXT QUESTIONS ARE BASED ON THE FOLLOWING: 
+On average, you receive 2.6 pieces of junk mail a day. Assume that the number of pieces of junk mail you 
+receive each day follows the Poisson distribution. 
+ 
+15) What is the probability that you receive exactly three pieces of junk mail today? 
+A) 0.198 
+B) 0.233 
+C) 0.218 
+D) 0.176 
+ 
+16) What is the probability of receiving more than three pieces of junk mail today? 
+A) 0.123 
+B) 0.264 
+C) 0.482 
+D) 0.242 
+5 
+17) What is the standard deviation of the number of pieces of junk mail you receive daily? 
+A) 1.61 
+B) 2.60 
+C) 6.76 
+D) There is not sufficient information to determine this. 
+ 
+18) What is the expected number of pieces of junk mail you receive daily? 
+A) 6.76 
+B) 1.61 
+C) 3.22 
+D) 2.60 
+ 
+19) Consider the following probability distribution. Which of the following is true? 
+ 
+x 0 1 2 3 4 5 6 7 
+P(x) 0.05 0.16 0.19 0.24 0.18 0.11 0.05 0.02 
+ 
+A) P(2 < X < 5) = 0.42 
+B) P(X > 6) = 0.07 
+C) P(X ≥ 3) = 0.64 
+D) P(X ≤ 6) = 0.93 
+ 
+20) If the outcomes of a discrete random variable follow a Poisson distribution, then their: 
+A) mean equals the standard deviation. 
+B) mean equals the variance. 
+C) median equals the variance. 
+D) median equals the standard deviation. 
+6 
+21) Which of the following is an example of a discrete random variable? 
+A) The distance you can drive in a car with a full tank of gas. 
+B) The number of cows on a cattle ranch. 
+C) The weight of a package at the post office. 
+D) The amount of rain that falls over a 24-hour period. 
+ 
+THE NEXT QUESTIONS ARE BASED ON THE FOLLOWING: 
+A company hires management trainees for entry level sales positions. Past experience indicates that only 
+10% will still be employed at the end of nine months. Assume the company recently hired six trainees. 
+ 
+22) What is the probability that three of the trainees will still be employed at the end of nine months? 
+A) 0.0012 
+B) 0.0146 
+C) 0.0415 
+D) 0.0446 
+ 
+23) What is the probability that at least two of the trainees will still be employed at the end of nine 
+months? 
+A) 0.9841 
+B) 0.0984 
+C) 0.1143 
+D) 0.0159 
+ 
+24) What is the probability that none of the trainees will still be employed at the end of nine months? 
+A) 0.5314 
+B) 0.3771 
+C) 0.4686 
+D) 0.0000 
+7 
+25) What is the probability that between one and three (inclusive) of the trainees will still be employed at 
+the end of nine months? 
+A) 0.3543 
+B) 0.0984 
+C) 0.0146 
+D) 0.4673 
+ 
+26) What is the expected number of the trainees that will still be employed at the end of nine months? 
+A) 0.6 
+B) 0.9 
+C) 3.0 
+D) 4.0 
+ 
+27) What is the standard deviation of the number of trainees that will still be employed at the end of nine 
+months? 
+A) 0.540 
+B) 0.240 
+C) 0.735 
+D) 0.490 
+8 
+THE NEXT QUESTIONS ARE BASED ON THE FOLLOWING: 
+On average, there are 3.2 defects in a sheet of rolled steel. Assume that the number of defects follows a 
+Poisson distribution. 
+ 
+28) What is the probability of having exactly three defects in a roll? 
+A) 0.412 
+B) 0.223 
+C) 0.318 
+D) 0.335 
+ 
+29) What is the probability of having more than three defects in a roll? 
+A) 0.354 
+B) 0.398 
+C) 0.412 
+D) 0.621 
+ 
+THE NEXT QUESTIONS ARE BASED ON THE FOLLOWING: 
+A basketball player makes 80 percent of his free throws during the regular season. Consider his next 
+eight free throws. 
+ 
+30) What is the probability that he will make exactly six free throws? 
+A) 0.1468 
+B) 0.3355 
+C) 0.1678 
+D) 0.2936 
+9 
+31) What is the probability that he will make at least six free throws? 
+A) 0.1468 
+B) 0.3355 
+C) 0.7969 
+D) 0.2936 
+ 
+32) What is the probability that he will make between four and six (inclusive) free throws? 
+A) 0.1468 
+B) 0.4863 
+C) 0.4404 
+D) 0.6291 
+ 
+33) What is the expected number of free throws that he will make? 
+A) 6.4 
+B) 6.0 
+C) 5.0 
+D) 4.0 
+ 
+34) What is the standard deviation of the number of free throws that he will make? 
+A) 1.131 
+B) 1.280 
+C) 2.608 
+D) 2.828 
+10 
+35) The finishing process on new furniture leaves slight blemishes. The table below displays a manager's 
+probability assessment of the number of blemishes in the finish of new furniture. 
+ 
+Number of Blemishes 0 1 2 3 4 5 
+Probability 0.34 0.25 0.19 0.11 0.07 0.04 
+ 
+On average, how many defects would we expect on a piece of furniture? 
+A) 0.28 
+B) 0.85 
+C) 1.44 
+D) 0.77 
+ 
+36) Thirty percent of all households have a DVD player. If you select 20 houses at random, what is the 
+probability that six or fewer of them have a DVD player? 
+A) 0.608 
+B) 0.416 
+C) 0.344 
+D) 0.238 
+ 
+37) The number of rainy days per month at Seattle follows a Poisson distribution with a mean value of 4.5 
+days. What is the probability that it will rain 3 days next month? 
+A) 0.3604 
+B) 0.2222 
+C) 0.1687 
+D) 0.2521 
+11 
+38) In a recent survey, 70% of human resource directors thought that it was very important for business 
+students to take a course in business ethics. For a sample of 12 human resource directors, what is the 
+probability that at least one of them does not think it very important for business students to take a 
+business ethics course? 
+A) 0.9833 
+B) 0.9521 
+C) 0.9862 
+D) 0.9714 
+ 
+40) The sum of the product of each value of a discrete random variable X and its probability is referred to 
+as its: 
+A) probability distribution. 
+B) expected value. 
+C) variance. 
+D) standard deviation. 
+12 
+41) Consider the following probability distribution. Which of the following is true? 
+ 
+x 0 1 2 3 4 5 6 
+P(x) 0.07 0.19 0.23 0.17 0.16 0.14 0.04 
+ 
+A) P(X > 3) = 0.51 
+B) P(2 ≤ X ≤ 5) = 0.33 
+C) P(X ≥3) = 0.51 
+D) P(X < 6) =1 
+ 
+43) Which of the following is an example of a continuous random variable? 
+A) The number of cars in a parking lot. 
+B) The number of repairs at a computer shop over the course of the week. 
+C) The total points scored in a basketball game. 
+D) The weight of a bag of potatoes. 
+13 
+44) In a tennis match, a player must win three of five sets to win the match. If a player wins the first two 
+sets, what is the probability that the player will win the match, assuming that each player is equally likely 
+to win each set? 
+A) 0.25 
+B) 0.50 
+C) 0.125 
+D) 0.875 
+ 
+THE NEXT QUESTIONS ARE BASED ON THE FOLLOWING: 
+A cereal manufacturer produces a cereal that claims to contain 16 ounces in each box. A sample of 
+boxes results in the following table. 
+ 
+Weight in Ounces 14 15 16 17 
+Probability 0.10 0.30 0.40 0.20 
+ 
+45) What is the mean weight of the sample of cereal boxes? 
+A) 15.5 
+B) 15.7 
+C) 16.0 
+D) 16.5 
+ 
+46) What is the standard deviation of the weight of cereal in the boxes? 
+A) 0.81 
+B) 1.25 
+C) 0.90 
+D) 1.19 
+14 
+THE NEXT QUESTIONS ARE BASED ON THE FOLLOWING: 
+Consider the following probability distribution function. 
+ 
+x 0 1 2 3 4 5 6 
+P(x) 0.07 0.19 0.23 0.17 0.16 0.14 0.04 
+ 
+47) What is the expected value of X? 
+A) 2.74 
+B) 0.46 
+C) 1.78 
+D) 3.02 
+ 
+48) What is the standard deviation of X? 
+A) 13.25 
+B) 3.64 
+C) 1.62 
+D) 4.13 
+ 
+49) Which of the following is true for the binomial distribution? 
+A) There are at least three or more possible outcomes. 
+B) The probability of success remains the same for each trial. 
+C) The probability of success P, is equal to 1.99 most of the time. 
+D) The number of trials are not independent. 
+15 
+THE NEXT QUESTIONS ARE BASED ON THE FOLLOWING: 
+Suppose you know that the number of complaints coming into a phone center averages 4.2 every ten 
+minutes. Assume that the number of calls follows the Poisson distribution. 
+ 
+50) What is the probability that there are three or fewer calls during the next ten minutes? 
+A) 0.211 
+B) 0.372 
+C) 0.396 
+D) 0.425 
+ 
+51) What is the probability that there are exactly four calls during the next ten minutes? 
+A) 0.194 
+B) 0.172 
+C) 0.156 
+D) 0.134 
+ 
+52) It has been estimated that 30% of all farms are family-owned. In a sample of 12 farms, what is the 
+probability that exactly three farms are family owned? 
+A) 0.20 
+B) 0.30 
+C) 0.36 
+D) 0.24 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+101) A discrete random variable is a random variable if it can take on an infinite number of values. 
+ 
+102) A continuous random variable is a random variable if it can take on no more than a countable 
+number of values. 
+ 
+103) The probability distribution contains all the information about the probability properties of a random 
+variable. 
+ 
+104) The expected value of a random variable is also called its mean. 
+ 
+105) The concept of variance can be very useful in comparing the dispersions of probability distributions. 
+16 
+106) The binomial probability distribution is used extensively in many applied business and economic 
+problems. 
+ 
+107) The Bernoulli model yields just two possible mutually exclusive and collectively exhaustive 
+outcomes, which are labeled success and failure. 
+ 
+108) An important generalization of the Bernoulli distribution concerns the case where a random 
+experiment with infinite outcomes is repeatedly independent. 
+ 
+109) The binomial distribution is widely used in business and economic applications involving the 
+probability of discrete occurrences. 
+ 
+110) The probability of various numbers of customers waiting for something to happen, or waiting line or 
+queuing problems in general, are examples of the usefulness of the Poisson distribution. 
+ 
+111) The Poisson distribution can be used to approximate the binomial distribution when the number of 
+trials n is large, and the probability P is small. 
+17 
+ 
+ 
+113) If the number of possible outcomes of a random variable is infinite but countable, the random 
+variable is considered discrete. 
+ 
+114) The number of phone calls arriving at a phone center each day is an example of a continuous 
+random variable. 
+ 
+115) The number of customers that are served at a fast food restaurant between noon and 2:00 p.m. is 
+an example of a discrete random variable. 
+ 
+116) Let the random variable Y = a + bX. Then σY = 
+σX 
+ 
+118) You can use the Poisson distribution to approximate the binomial distribution with mean nP when P 
+is small and n is large, such that nP is of only moderate size (preferably nP ≤ 7). 
+ 
+119) If the covariance between two variables is zero, then the two variables are statistically independent. 
+ 
+120) Flipping a coin is an example of a random variable. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+164) Consider the following probability distribution function. Compute the mean and standard deviation of 
+X. 
+ 
+x 0 1 2 3 4 5 6 7 
+P(x) 0.05 0.16 0.19 0.24 0.18 0.11 0.05 0.02 
+ 
+165) Suppose you know that the number of complaints coming into a phone center averages 3 every ten 
+minutes. Assume that the number of calls follows the Poisson distribution. What is the probability that 
+there are exactly three calls during the next ten minutes? 
+ 
+166) The following table lists the relative frequency distribution of the number of calls coming into a call 
+18 
+center each hour. If each call takes five minutes to process, what is the mean and standard deviation of 
+the number of minutes the operators are answering questions each hour? 
+ 
+x 2 3 4 5 6 7 
+P(x) 0.07 0.11 0.23 0.31 0.18 0.1 
+ 
+ 
+167) In a box of 20 chocolates, there are four chocolates with coconut filling. What is the probability of 
+choosing four chocolates, one or more of which have coconut filling? 
+THE NEXT QUESTIONS ARE BASED ON THE FOLLOWING: 
+Consider the following probability distribution function. 
+ 
+x 0 1 2 3 4 5 6 
+P(x) 0.07 0.19 0.23 0.17 0.16 0.14 0.04 
+ 
+168) What is P(X > 3)? 
+ 
+169) What is P(2 < X < 5)? 
+ 
+170) What is P(X ≥ 2)? 
+ 
+171) What is P(X < 6)? 
+ 
+172) An auditor reviewing the invoices of a small company finds that there are errors in 1.5% of them. If 
+the auditor looks at 500 invoices, what is the probability that he finds more than 3 invoices with errors? 
+Use the Poisson approximation to the binomial distribution. 
+19 
+173) The following table displays the joint probability distribution of X and Y. What is the covariance 
+between the X and Y? 
+ 
+ 
+ 
+174) In basketball, one of the possible penalties after a foul is called a free throw. The fouled player gets 
+one shot at the basket from the foul line. If he misses this shot, he is awarded no points and the penalty is 
+over. If he makes the shot, then he gets one point and gets to take another shot. If he makes the second 
+shot he gets an additional point, and the ball is turned over to the other team. If he misses the second 
+shot, the penalty is over. Suppose that the probability of making a shot is 80%, and the likelihood of 
+making one shot is independent of the outcome of any other shot. What is the probability distribution 
+function for the points from the penalty? On average, how many points would you expect to get from the 
+penalty? 
+ 
+175) Consider the following game. You choose a number from 1 to 6 and pay $1 to roll three dice. If your 
+number is rolled on any of the dice, you get your dollar back and one dollar for each of the times your 
+number came up. For instance, if your number comes up on two of the three dice, than you get a total of 
+three dollars back. On average, how much would you expect to win at this game? 
+ 
+176) Thirty percent of all households have a DVD player. Suppose you select 20 houses at random. On 
+average, how many houses of the twenty would you expect to have a DVD? What is the standard 
+deviation of the number of houses with a DVD? 
+177) In a class of 18 students, there are 7 males and 11 females. A subcommittee of five students will be 
+formed from this class. What is the probability that the subcommittee contains more males than females? 
+20 
+THE NEXT QUESTIONS ARE BASED ON THE FOLLOWING: 
+In a recent survey of 300 teenagers, 62% of the teenagers indicated that they had been to a movie within 
+the past month. 75% of those teenagers who had seen a movie also had gone out to dinner in the past 
+month, while only 64% of the teenagers who had not seen a movie had been out to dinner in the past 
+month. Define the random variables as follows: 
+X = 1 if teenager had been to movie; X = 0 otherwise 
+Y = 1 if teenager had been out to dinner; Y = 0 otherwise 
+ 
+178) Find the joint probability function of X and Y. 
+ 
+179) Find the conditional probability function of X, given Y = 1. 
+ 
+180) Find and interpret the covariance between X and Y. 
+ 
+181) A cooler contains 14 drinks: 8 soft drinks and 6 beers. You select 3 drinks from the cooler. Let the 
+random variable X be the number of soft drinks you get out of 3. Develop the probability distribution 
+function of X. 
+ 
+182) The number of accidents on a US -131 highway average 4.4 per year. Assuming that the number of 
+accidents follows a Poisson distribution, what is the probability that there are more than three accidents 
+next year on US - 131? 
+21 
+183) There are 20 professors in the School of Business Administration. 15 of them have received good 
+evaluations from students, while 5 received poor evaluations. You will take four courses in the School of 
+Business Administration next semester. What is the probability that the majority of your professors next 
+semester have received good evaluations? 
+ 
+THE NEXT QUESTIONS ARE BASED ON THE FOLLOWING: 
+The following table displays the joint probability distribution of two discrete random variables X and Y. 
+ 
+ 
+ 
+184) Determine the marginal probability distribution for X. 
+ 
+185) Compute the expected value for X. 
+22 
+186) Compute the standard deviation for X. 
+ 
+187) Determine the marginal probability distribution for Y. 
+ 
+188) Compute the expected value for Y. 
+ 
+189) Compute the standard deviation for Y. 
+23 
+190) Compute the covariance between X and Y. 
+ 
+191) Compute the correlation between X and Y. 
+ 
+192) Compute the mean for the linear function W = 2X + Y. 
+24 
+193) Compute the variance for the linear function W = 2X + Y. 
+ 
+194) Are X and Y statistically independent? Explain. 
+25 
+THE NEXT QUESTIONS ARE BASED ON THE FOLLOWING: 
+The finishing process on new furniture leaves slight blemishes. The following table displays a manager's 
+probability assessment of the number of blemishes in the finish of new furniture. For each piece of 
+furniture coming off the line it takes 15 minutes to pack for shipping. In addition, fixing the blemishes take 
+another 2 minutes for each blemish. 
+ 
+Number of Blemishes 0 1 2 3 4 5 
+Probability 0.34 0.25 0.19 0.11 0.07 0.04 
+ 
+195) On average, how long should it take between the time a piece of furniture comes off the line and is 
+ready to ship? 
+ 
+196) What is the variance of the time it takes between the time a piece of furniture comes off the line and 
+is ready to ship? 
+26 
+THE NEXT QUESTIONS ARE BASED ON THE FOLLOWING: 
+A bank grants mortgages to 87% of all applicants. After the applicant gets approval, the bank sends an 
+appraiser to evaluate the value of the property. The bank pays an appraiser a salary of $2000 a month 
+plus $200 for each appraisal. Assume the bank gets 10 loan applications next month. 
+ 
+197) What is the variance of the amount of money the bank will have to pay its appraiser? 
+ 
+198) What is the expected value of the amount of money the bank will have to pay its appraiser? 
+ 
+THE NEXT QUESTIONS ARE BASED ON THE FOLLOWING: 
+As a purchasing agent, you are responsible for selecting sources of supply for manufactured components 
+to use in your firm's production process. The salesman for a certain supplier has indicated that they can 
+supply an electronic sub-assembly that has a defect rate of 1.1%–well below your current supplier's 
+defect rate. You accept 100 sub-assemblies for evaluation, and find that there were four defects. 
+ 
+199) Using the Poisson approximation to the binomial, how likely is it to get four or less defects out of 
+100? 
+ 
+200) Using the Poisson approximation to the binomial, how likely is it to get exactly four defects out of 
+100? 
+27 
+THE NEXT QUESTIONS ARE BASED ON THE FOLLOWING: 
+It has been reported that 1.7% of the work force will retire this year. Consider a random sample of 200 
+workers. 
+ 
+201) What is the probability that more than three of them will retire this year? Use the Poisson 
+approximation to the binomial. 
+ 
+202) What is an estimate of the standard deviation of the number of people who will retire this year? Use 
+the Poisson approximation to the binomial. 
+ 
+THE NEXT QUESTIONS ARE BASED ON THE FOLLOWING: 
+The manager of a movie rental store was interested in examining the relationship between the weekly 
+take-home pay for a family and the amount that family spends weekly on recreational activities. The 
+following output was generated using Minitab: 
+ 
+Covariances 
+ Take-home pay Amount spent 
+Take-home pay 4413.84  
+Amount spent 2419.64 1364.29 
+ 
+Let X = weekly take-home pay, and Y = amount spent weekly on recreational activities. 
+ 
+203) Identify the covariance between X and Y. 
+28 
+204) Identify the variance of weekly take-home pay. 
+ 
+205) Identify the variance of amount spent weekly on recreational activities. 
+ 
+
+--- Exercises-5_ContinuousRV.pdf ---
+Statistical Methods for Computer Science
+Exercises:   Continuous Random Variables and Probability Distributions
+2) Sales, investment, consumption, costs, and revenues are measures which can be represented by:
+A) discrete variable.
+B) fixed variables.
+C) continuous random variables.
+D) coefficients.
+5) To obtain the probability that a continuous random variable falls in a specified range, we find the 
+difference between the cumulative probabilities at the lower and upper end of the:
+A) range.
+B) median.
+C) mode.
+D) mean.
+7) The function that may be used to find the probability that the random variable falls within a specific 
+range is called the:
+A) expected value.
+B) uniform distribution.
+C) probability density function.
+D) linear function.
+1
+8) Because the probability of any specific value is 0 for a continuous random variable, the expected 
+values for continuous random variables are computed using:
+A) Bayes' Theorem.
+B) an empirical formula.
+C) a Venn diagram.
+D) integral calculus.
+11) The shape of the normal probability density function is a symmetric bell-shaped curve centered on 
+the:
+A) variance.
+B) standard deviation.
+C) coefficient.
+D) mean.
+2
+12) We can convert any normal distribution to a distribution with a mean 0 and a variance 1. What is the 
+distribution called?
+A) Poisson distribution
+B) standard normal distribution
+C) marginal distribution
+15) Let the random variable Z follow a standard normal distribution. Find P(0 < Z < 0.57).
+A) 0.2843
+B) 0.7843
+C) 0.2157
+D) 0.7157
+3
+16) Suppose that 19% of all sales are for amounts greater than $1,000. In a random sample of 30 
+invoices, what is the probability that more than six of the invoices are for over $1,000? Use the binomial 
+approximation for the normal distribution.
+A) 0.4443
+B) 0.9440
+C) 0.5557
+D) 0.0560
+18) Let the random variable Z follow a standard normal distribution. Find the value k, such that P(Z > k) = 
+0.39.
+A) 0.28
+B) 1.23
+C) -1.23
+D) -0.28
+19) Let the random variable Z follow a standard normal distribution. Find P(-2.21 < Z < 0).
+A) 0.9864
+B) 0.4864
+C) 0.0136
+D) 0.5136
+4
+21) Investment A has an expected return of 7.8% with a standard deviation of 2%. Investment B has an 
+expected return of 7.2% with a standard deviation of 3.1%. Which stock is more likely to have a return 
+greater than 10%?
+A) Stock A
+B) Stock B
+C) The probability is the same for both A and B.
+D) Unable to determine.
+23) Let the random variable Z follow a standard normal distribution. Find P(-1.33 < Z < 0.78).
+A) 0.6905
+B) 0.2823
+C) 0.2177
+D) 0.3095
+5
+THE NEXT QUESTIONS ARE BASED ON THE FOLLOWING INFORMATION:
+You have recently joined a country club. The number of times you expect to play golf in a month is 
+represented by a random variable with a mean of 10 and a standard deviation of 2.2. Assume you pay 
+monthly membership fees of $500 per month and pay an additional $50 per round of golf.
+24) What is your average monthly bill from the country club?
+A) $700
+B) $800
+C) $900
+D) $1000
+25) What is the standard deviation for your average monthly bill from the country club?
+A) $220
+B) $110
+C) $324
+D) $180
+26) Which of the following is false regarding the normal distribution?
+A) The mean, median, and mode are equal.
+B) The frequency of values peaks at the mean, regardless of the value of the mean or variance.
+C) 100% of the values fall between ±3 standard deviations.
+D) The shape of the distribution is symmetrical around the mean.
+6
+27) One normal distribution has a mean of 5 and a standard deviation of 2. A second normal distribution 
+has a mean of 6 and a standard deviation of 1. Which of the following statements is true?
+A) The width of the first distribution is wider than the second distribution.
+B) The central location of the first distribution is higher than the second distribution.
+C) The dispersions of both distributions are the same.
+D) The locations of both distributions are the same.
+28) Let the random variable Z follow a standard normal distribution. Find the value k, such 
+that P(Z > k) = 0.73.
+A) 0.27
+B) 0.73
+C) -0.16
+D) -0.61
+THE NEXT QUESTIONS ARE BASED ON THE FOLLOWING INFORMATION:
+Let the random variable X follow a normal distribution with a mean of 17.1 and a standard deviation of 
+3.2.
+29) What is P(X > 16)?
+A) 0.3401
+B) 0.6331
+C) 0.3669
+D) 0.8326
+7
+30) What is P(15 < X < 20)?
+A) 0.5581
+B) 0.1814
+C) 0.5640
+D) 0.2546
+31) The mean of a normally distributed group of weekly incomes for a group of executives is $2,400 and 
+the standard deviation is $600. What is the z-score for an income of $1,500/week?
+A) -1.5
+B) -1.0
+C) 2.5
+D) 1.9
+32) Let the random variable Z follow a standard normal distribution. Find the value k, such 
+that P(-0.62 < Z < k) = 0.43.
+A) 0.20
+B) 0.52
+C) 0.12
+D) 0.56
+33) The normal probabilities are calculated using the table of standard normal distribution where the 
+mean and standard deviations are, respectively:
+A) 1 and 1.
+B) 10 and 0.
+C) 0 and 1.
+D) 0 and 10.
+8
+THE NEXT QUESTIONS ARE BASED ON THE FOLLOWING INFORMATION:
+Let the random variable Z follow a standard normal distribution.
+34) What is P(Z > 1.2)?
+A) 0.1112
+B) 0.8849
+C) 0.1151
+D) 0.6112
+35) What is P(Z > -0.21)?
+A) 0.4207
+B) 0.4168
+C) 0.5793
+D) 0.5832
+36) What is P(0.33 < Z < 0.45)?
+A) 0.5443
+B) 0.0443
+C) 0.4557
+D) 0.1515
+37) The distribution of annual incomes of a sample of college graduates is normally distributed with a 
+mean of $52,000 and a standard deviation of 1,000. About 68 percent of the incomes lie between what 
+two income levels?
+A) 52,000 and 62,000
+B) 50,000 and 60,000
+C) 51,000 and 53,000
+D) 53,000 and 57,000
+9
+THE NEXT QUESTIONS ARE BASED ON THE FOLLOWING INFORMATION:
+Let the random variable X follow a normal distribution with a mean of 61.7 and a standard deviation of 
+5.2.
+38) What is the value of k such that P(X > k) = 0.63?
+A) 59.984
+B) 66.446
+C) 62.830
+D) 67.576
+39) What is the value of k such that P(59 < X < k) = 0.54?
+A) 65.8
+B) 64.6
+C) 63.7
+D) 66.9
+40) What proportion of the total area under the normal curve is within ± two standard deviations of the 
+mean?
+A) About 50%
+B) About 68%
+C) About 95%
+D) About 99.7%
+10
+THE NEXT QUESTIONS ARE BASED ON THE FOLLOWING INFORMATION:
+The number of orders that come into a mail-order sales office each month is normally distributed with a 
+mean of 298 and a standard deviation of 15.4.
+41) What is the probability that in a particular month the office receives more than 310 orders?
+A) 0.7823
+B) 0.2826
+C) 0.7174
+D) 0.2177
+42) The probability is 0.3 that the sales office receives less than how many orders?
+A) 310.9
+B) 285.1
+C) 290.0
+D) 306.0
+43) What is the area under the normal curve between Z = 1.0 and Z = 2.0?
+A) 0.0228
+B) 0.1359
+C) 0.3413
+D) 0.4772
+44) What is the area under the normal curve between Z = -2 and Z = 0?
+A) 0.5000
+B) 0.6826
+C) 0.1359
+D) 0.4772
+11
+45) What proportion of the total area under the normal curve is above the mean?
+A) 50%
+B) 68%
+C) 95%
+D) 99.7%
+50) The median score for the final exam in a chemistry class was 75 and 18% of the students received a 
+grade greater than 80. If the test scores were normally distributed, what is the probability that a randomly 
+selected exam had a score between 75 and 80?
+A) 68%
+B) 32%
+C) 80%
+D) 50%
+12
+116) Many measures such as length, weight, sales, investment, consumption, costs, and revenues can 
+be represented by continuous random variables.
+118) The probability that a random variable lies between a pair of values is the area under the probability 
+density function to the left of the two values.
+119) The mean of a probability distribution provides a measure of the center of the distribution.
+120) The variance of a probability distribution provides a measure of the average spread of a distribution.
+122) The total area under the curve of the probability density function for a continuous random variable 
+depends on the shape of the probability distribution of the random variable.
+123) In any normal distribution, the mean, median, mode, and standard deviation are all at the same 
+position on the horizontal axis.
+124) Any set of normally distributed data can be transformed to a standardized form.
+13
+125) In the normal distribution, the curve approaches, but never intercepts the horizontal axis either to the 
+left or right.
+126) The shape of the normal probability distribution is determined by the population standard deviation 
+σ. Small values of σ reduce the height of the curve and increase the spread; large values of σ increase 
+the height of the curve and reduce the spread.
+127) The standard normal distribution is the most well-known discrete distribution in statistics.
+128) A continuous random variable X is normally distributed with a mean of 1200 and a standard 
+deviation of 150. Given that X = 1410, its corresponding Z-score is 1.40.
+130) In the normal distribution, the total area beneath the curve represents the probability for all possible 
+outcomes for a given event.
+14
+131) If the random variable Z follows a standard normal distribution, then, σz = 
+ .
+132) If the random variable Y = a + bX, then 
+  = 
+ .
+133) The total area under the curve of the probability density function of any normal distribution is always 
+1.0.
+134) If the random variable Z follows a standard normal distribution, then 
+  = 1.
+135) The normal curve gets closer and closer to the X-axis but never actually touches it.
+15
+137) There is not just one normal probability distribution; there is a family of distributions.
+138) If X is a normal random variable with mean μ = 4 and standard deviation σ = 2, and Y is a 
+normal random variable with mean μ = 10 and standard deviation σ = 5, then the probabilities P(X < 0) 
+and P(Y < 0) are equal.
+140) If X is a normal random variable with mean of 2 and standard deviation of 5, then 
+P(X < 3) = P(X > 7).
+167) Investment A has an expected return of 10% with a standard deviation of 3.5%. Investment B has an 
+expected return of 6% with a standard deviation of 1.2%. If you invest equally in both investments, what is 
+the expected return and standard deviation of your portfolio? What assumptions have you made?
+16
+THE NEXT QUESTIONS ARE BASED ON THE FOLLOWING INFORMATION:
+Let the random variable Z follow a standard normal distribution.
+176) What is P(Z > 0.29)?
+177) What is P(Z < 1.23)?
+178) What is P(Z > -0.52)?
+179) What is P(-0.44 < Z < 1.2)?
+17
+180) As manager of a pizza shop, you are responsible for placing the food orders. You currently have 
+enough anchovies for 8 pizzas. You expect to have orders for 60 pizzas tonight. If 8% of all pizzas are 
+ordered with anchovies, what is the probability that you run out of anchovies before the evening is over? 
+Use the normal approximation for the binomial.
+THE NEXT QUESTIONS ARE BASED ON THE FOLLOWING INFORMATION:
+Let the random variable Z follow a standard normal distribution.
+181) Find the value k such that P(Z > k) = 0.83
+182) Find the value k such that P(Z > k) = 0.43
+183) Find the value k such that P(0 < Z < k) = 0.35
+184) Find the value k such that P(-0.71 < Z < k) ≈ 0.67
+18
+185) The time it takes to assemble an electronic component is normally distributed with a mean of 17.2 
+minutes and a standard deviation of 3.1 minutes. The probability is 90% that it will take at least how long 
+to assemble a component?
+188) In a recent survey of high school students, it was found that the average amount of money spent on 
+entertainment each week was normally distributed with a mean of $52.30. Suppose you are told that 
+there is an 80% probability that a randomly-selected student spends somewhere between $49.74 and 
+$54.86. What is the standard deviation of the amount of money spent by high school students monthly?
+194) Sales at a local plumbing wholesaler consist of both over-the-counter sales as well as deliveries. 
+During the course of a month, over-the-counter sales have a mean of $102,972 with a standard deviation 
+of $13,523. Over the same time period, deliveries average $242,354 with a standard deviation of 
+$24,956. Assuming that the sales over-the-counter are independent of deliveries, what are the mean and 
+standard deviation of the wholesaler monthly sales?
+196) The number of viewers ordering a particular pay-per-view program is normally distributed. 20% of 
+the time, fewer than 20,000 people order the program. Only ten percent of the time more than 28,000 
+people order the program. What is the mean and standard deviation of the number of people ordering the 
+program?
+19
+
