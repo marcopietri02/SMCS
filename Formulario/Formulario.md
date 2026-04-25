@@ -146,9 +146,13 @@ $$s^2 = \frac{\sum_{i=1}^{k} f_i (x_i - \bar{x})^2}{N} \quad -> \quad s^2 = \lef
   * **Indipendenza:** Se $X, Y$ sono indipendenti $\implies Cov(X,Y) = 0$. Il viceversa è vero solo se sono normali congiunte.
   * **Regola pratica Binomiale vs Ipergeometrica**
 
-   | Situazione                              | Distribuzione corretta |
-   | --------------------------------------- | ---------------------- |
-   | Popolazione grande / con reinserimento  | Binomiale              |
-   | Popolazione finita, senza reinserimento | Ipergeometrica         |
+   <div align="center"> 
+
+   | Situazione | Distribuzione corretta | 
+   | :--- | :---: | 
+   | Popolazione grande / con reinserimento | **Binomiale** | 
+   | Popolazione finita, senza reinserimento | **Ipergeometrica** | 
    
-   Binomiale -> La binomiale richiede che ogni estrazione sia **indipendente** e che la probabilità di successo rimanga **costante** ad ogni prova. Questo vale solo se si campiona        _con_ reinserimento.
+   </div>
+   
+    Binomiale -> La binomiale richiede che ogni estrazione sia **indipendente** e che la probabilità di successo rimanga **costante** ad ogni prova. Questo vale solo se si campiona        _con_ reinserimento.
