@@ -4,13 +4,13 @@ Raccolta strutturata di formule e concetti: dalla statistica descrittiva alla di
 
 ## Indice
 
-1.  [Statistica Descrittiva]
-2.  [Calcolo delle Probabilità]
-3.  [Variabili Casuali (V.C.)]
-4.  [Distribuzioni Discrete]
-5.  [Distribuzioni Continue]
-6.  [Approssimazioni e Relazioni]
-7.  [Suggerimenti per l'Esame]
+1.  Statistica Descrittiva
+2.  Calcolo delle Probabilità
+3.  Variabili Casuali (V.C.)
+4.  Distribuzioni Discrete
+5.  Distribuzioni Continue
+6.  Approssimazioni e Relazioni
+7.  Suggerimenti per l'Esame
 
 -----
 
@@ -37,7 +37,7 @@ Raccolta strutturata di formule e concetti: dalla statistica descrittiva alla di
   * **Mediana:** 1. Calcola il valore centrale $x_i = \frac{inf + sup}{2}$.
                  2. Identifica la classe mediana tramite le frequenze cumulate ($N/2$).
                  3. Indichi il valore centrale di quella classe come Mediana.
-  * * **Varianza:**
+  * **Varianza:**
 
 $$s^2 = \frac{\sum_{i=1}^{k} f_i (x_i - \bar{x})^2}{N} \quad -> \quad s^2 = \left( \frac{1}{N}\sum_{i=1}^{k} f_i x_i^2 \right) - \bar{x}^2$$
 
@@ -150,4 +150,5 @@ $$s^2 = \frac{\sum_{i=1}^{k} f_i (x_i - \bar{x})^2}{N} \quad -> \quad s^2 = \lef
    | --------------------------------------- | ---------------------- |
    | Popolazione grande / con reinserimento  | Binomiale              |
    | Popolazione finita, senza reinserimento | Ipergeometrica         |
+   
    Binomiale -> La binomiale richiede che ogni estrazione sia **indipendente** e che la probabilità di successo rimanga **costante** ad ogni prova. Questo vale solo se si campiona        _con_ reinserimento.
