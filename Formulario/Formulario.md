@@ -56,6 +56,11 @@ Raccolta strutturata di formule e concetti: dalla statistica descrittiva alla di
   * **Probabilità Condizionata:** $P(A \mid B) = \frac{P(A \cap B)}{P(B)}$.
   * **Indipendenza:** $A, B$ indipendenti se $P(A \cap B) = P(A) \cdot P(B)$ o $P(A|B) = P(A)$.
   * **Teorema della Probabilità Totale:** $P(B) = \sum P(B \mid A_i)P(A_i)$.
+  * **Regola complemento per Probabilità condizionata:** $$1 = P(B \mid A) + P(B' \mid A)$$.
+  * **Conseguenza regola del complemento per la condizionata** $$P(B' \mid A') = 1 - P(B \mid A')$$.
+  * **Conseguenza dal teorema delle prob. totali** $$P(B) = P(A \cap B) + P(A' \cap B)$$ oppure
+  $$P(A) = P(A \cap B) + P(A \cap B')$$
+  con `A'` o `B'` negazioni di `A`e `B`.
   * **Teorema di Bayes:** $P(A_i \mid B) = \frac{P(B \mid A_i)P(A_i)}{\sum P(B \mid A_j)P(A_j)}$.
 
 -----
