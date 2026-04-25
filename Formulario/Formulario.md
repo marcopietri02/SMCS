@@ -6,11 +6,11 @@ Raccolta strutturata di formule e concetti: dalla statistica descrittiva alla di
 
 1. [Statistica Descrittiva](#1-statistica-descrittiva)
 2. [Calcolo delle Probabilità](#2-calcolo-delle-probabilità)
-3. [Variabili Casuali (V.C.)](#3-variabili-casuali-(v.c.))
-4. [Distribuzioni Discrete](#4-distribuzioni-discrete)
-5. [Distribuzioni Continue](#5-distribuzioni-continue)
-6. [Approssimazioni e Relazioni](#6-approssimazioni-e-relazioni)
-7. [Suggerimenti per l'Esame](#7-suggerimenti-per-l'esame)
+3. [Variabili Casuali (V.C.)](#3-variabili-casuali-vc)
+4. [Distribuzioni Discrete](#4-distribuzioni-notevoli-discrete)
+5. [Distribuzioni Continue](#5-distribuzioni-notevoli-continue)
+6. [Approssimazioni e Relazioni](#6-approssimazioni-e-relazioni-fondamentali)
+7. [Suggerimenti per l'Esame](#7-suggerimenti-per-lesame)
 
 ---
 
