@@ -4,13 +4,13 @@ Raccolta strutturata di formule e concetti: dalla statistica descrittiva alla di
 
 ## Indice
 
-1. Statistica Descrittiva
-2. Calcolo delle Probabilità
-3. Variabili Casuali (V.C.)
-4. Distribuzioni Discrete
-5. Distribuzioni Continue
-6. Approssimazioni e Relazioni
-7. Suggerimenti per l'Esame
+1. [Statistica Descrittiva](#1-statistica-descrittiva)
+2. [Calcolo delle Probabilità](#2-calcolo-delle-probabilità)
+3. [Variabili Casuali (V.C.)](#3-variabili-casuali-(v.c.))
+4. [Distribuzioni Discrete](#4-distribuzioni-discrete)
+5. [Distribuzioni Continue](#5-distribuzioni-continue)
+6. [Approssimazioni e Relazioni](#6-approssimazioni-e-relazioni)
+7. [Suggerimenti per l'Esame](#7-suggerimenti-per-l'esame)
 
 ---
 
@@ -131,7 +131,15 @@ _Utilizzata per sintetizzare i dati di un campione._
     
     $$P(A_i \mid B) = \frac{P(B \mid A_i)P(A_i)}{P(B)} = \frac{P(B \mid A_i)P(A_i)}{\sum P(B \mid A_j)P(A_j)}$$
     
+- **Regola complemento per Probabilità condizionata:** $$1 = P(B \mid A) + P(B' \mid A)$$.
 
+- **Conseguenza regola del complemento per la condizionata** $$P(B' \mid A') = 1 - P(B \mid A')$$.
+
+- **Conseguenza dal teorema delle prob. totali** $$P(B) = P(A \cap B) + P(A' \cap B)$$ oppure
+  $$P(A) = P(A \cap B) + P(A \cap B')$$
+  con `A'` o `B'` negazioni di `A`e `B`.
+  
+  
 ---
 
 ## 3. Variabili Casuali (V.C.)
