@@ -155,4 +155,4 @@ $$s^2 = \frac{\sum_{i=1}^{k} f_i (x_i - \bar{x})^2}{N} \quad -> \quad s^2 = \lef
    
    </div>
    
-    Binomiale -> La binomiale richiede che ogni estrazione sia **indipendente** e che la probabilità di successo rimanga **costante** ad ogni prova. Questo vale solo se si campiona        _con_ reinserimento.
+   > Binomiale -> La binomiale richiede che ogni estrazione sia **indipendente** e che la probabilità di successo rimanga **costante** ad ogni prova. Questo vale solo se si campiona        _con_ reinserimento.
