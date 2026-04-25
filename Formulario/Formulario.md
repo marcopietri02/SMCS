@@ -1,16 +1,16 @@
-# Formulario di Statistica per il Primo Parziale
+# Formulario di Statistica
 
 Raccolta strutturata di formule e concetti: dalla statistica descrittiva alla distribuzione normale.
 
 ## Indice
 
-1.  [Statistica Descrittiva](https://www.google.com/search?q=%231-statistica-descrittiva)
-2.  [Calcolo delle Probabilità](https://www.google.com/search?q=%232-calcolo-delle-probabilit%C3%A0)
-3.  [Variabili Casuali (V.C.)](https://www.google.com/search?q=%233-variabili-casuali-vc)
-4.  [Distribuzioni Discrete](https://www.google.com/search?q=%234-distribuzioni-notevoli-discrete)
-5.  [Distribuzioni Continue](https://www.google.com/search?q=%235-distribuzioni-notevoli-continue)
-6.  [Approssimazioni e Relazioni](https://www.google.com/search?q=%236-approssimazioni-fondamentali)
-7.  [Suggerimenti per l'Esame](https://www.google.com/search?q=%237-suggerimenti-per-lesame)
+1.  [Statistica Descrittiva]
+2.  [Calcolo delle Probabilità]
+3.  [Variabili Casuali (V.C.)]
+4.  [Distribuzioni Discrete]
+5.  [Distribuzioni Continue]
+6.  [Approssimazioni e Relazioni]
+7.  [Suggerimenti per l'Esame]
 
 -----
 
@@ -26,12 +26,33 @@ Raccolta strutturata di formule e concetti: dalla statistica descrittiva alla di
   * **Quartili ($Q_p$):**
       * **Primo Quartile ($Q_1$):** 25° percentile. Posizione: $0.25(N)$.
       * **Terzo Quartile ($Q_3$):** 75° percentile. Posizione: $0.75(N)$.
+  * **Asimmetria (Skewness):**
+    - **Negativa (a sinistra):** Media < Mediana.
+    - **Positiva (a destra):** Media > Mediana.
+
 
 ### Dati Raggruppati in Classi
 
   * **Media:** $\bar{x} = \frac{\sum (x_i \cdot f_i)}{\sum f_i}$ (dove $x_i$ è il valore centrale della classe).
   * **Mediana:** 1. Calcola il valore centrale $x_i = \frac{inf + sup}{2}$.
-    2\. Identifica la classe mediana tramite le frequenze cumulate ($N/2$).
+                 2. Identifica la classe mediana tramite le frequenze cumulate ($N/2$).
+                 3. Indichi il valore centrale di quella classe come Mediana.
+  * * **Varianza:**
+
+$$s^2 = \frac{\sum_{i=1}^{k} f_i (x_i - \bar{x})^2}{N} \quad -> \quad s^2 = \left( \frac{1}{N}\sum_{i=1}^{k} f_i x_i^2 \right) - \bar{x}^2$$
+
+
+> 	**Legenda:**
+> 	
+> 	- $k$: numero di classi.
+> 	    
+> 	- $x_i$: valore centrale della classe $i$ $\to \frac{inf + sup}{2}$.
+> 	    
+> 	- $f_i$: frequenza assoluta della classe $i$.
+> 	    
+> 	- $N$: totale delle osservazioni ($\sum f_i$).
+> 	    
+> 	- $\bar{x}$: media dei dati raggruppati $\to \frac{\sum f_i x_i}{N}$.
 
 ### Misure di Variabilità
 
@@ -41,6 +62,9 @@ Raccolta strutturata di formule e concetti: dalla statistica descrittiva alla di
   * **Deviazione Standard ($s$):** $s = \sqrt{s^2}$.
   * **Coefficiente di Variazione (CV):** $CV = \frac{s}{\bar{x}}$.
   * **Regola Outlier (Box-plot):** Un dato è outlier se fuori dall'intervallo $[Q_1 - 1.5 \cdot IQR, \;\; Q_3 + 1.5 \cdot IQR]$.
+
+![](https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcSj33oL0-2XXqNimeTPuHDY212Kp8kkGM2xYzOUfvF4sNVArEpbKKfb4HYJTGxquiio8jlTo670wPMIvyOO2Kj0_dsOUbWIusLj7AMkSY8Btzybaio)
+
 
 ### Analisi Bivariata
 
@@ -89,7 +113,7 @@ Raccolta strutturata di formule e concetti: dalla statistica descrittiva alla di
 
 ### Distribuzione Normale $N(\mu, \sigma^2)$
 
-[Image of standard normal distribution curve]
+![Gauss distribution. Standard normal distribution. Gaussian bell graph curve. Business and marketing concept. Math probability theory. Editable stroke. Vector illustration isolated on white background](https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcRG7XS1PzE2PqLY6azLksh0TsVK9Tt6I4nXWBxUw67IFfeKBIE0hyN1cGhuSQY7oKAvlBM_waffjDj3KgWCKDKScCdcrc3ZzJSx1YCJC4eIi3N5DrI)
 
   * **Standardizzazione:** $Z = \frac{X - \mu}{\sigma}$ dove $Z \sim N(0, 1)$.
   * **Simmetrie Tavole:**
@@ -120,3 +144,10 @@ Raccolta strutturata di formule e concetti: dalla statistica descrittiva alla di
   * **Somma di Normali:** Se indipendenti, $X+Y \sim N(\mu_X + \mu_Y, \sigma_X^2 + \sigma_Y^2)$. **Attenzione:** si sommano le varianze, non le deviazioni standard.
   * **Percentili:** Per trovare $k$ tale che $P(X \le k) = \alpha$, calcola $k = \mu + z_\alpha \cdot \sigma$.
   * **Indipendenza:** Se $X, Y$ sono indipendenti $\implies Cov(X,Y) = 0$. Il viceversa è vero solo se sono normali congiunte.
+  * **Regola pratica Binomiale vs Ipergeometrica**
+
+   | Situazione                              | Distribuzione corretta |
+   | --------------------------------------- | ---------------------- |
+   | Popolazione grande / con reinserimento  | Binomiale              |
+   | Popolazione finita, senza reinserimento | Ipergeometrica         |
+   Binomiale -> La binomiale richiede che ogni estrazione sia **indipendente** e che la probabilità di successo rimanga **costante** ad ogni prova. Questo vale solo se si campiona        _con_ reinserimento.
