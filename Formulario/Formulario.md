@@ -48,7 +48,7 @@ _Utilizzata per sintetizzare i dati di un campione._
     
     $$\bar{x} = \frac{\sum (x_i \cdot f_i)}{\sum f_i}$$
     
-    _(Dove $x_i$ è il valore centrale della classe e $f_i$ la frequenza)_.
+    (Dove $x_i$ è il valore centrale della classe e $f_i$ la frequenza).
     
 - **Mediana per dati raggruppati:**
     
@@ -252,7 +252,7 @@ _Utilizzata per sintetizzare i dati di un campione._
     
 - **Indipendenza vs Correlazione:** Indipendenza $\implies$ $r=0$. Il viceversa vale solo per normali congiunte.
 
-- Regola pratica Binomiale vs Ipergeometrica
+- **Regola pratica Binomiale vs Ipergeometrica:**
 
 | **Situazione**                          | **Distribuzione corretta** |
 | --------------------------------------- | -------------------------- |
