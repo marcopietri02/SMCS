@@ -268,3 +268,7 @@ _Utilizzata per sintetizzare i dati di un campione._
 | Popolazione finita, senza reinserimento | **Ipergeometrica**         |
 
 > **Nota:** La Binomiale richiede probabilità di successo costante ($p$). Senza reinserimento in popolazioni finite, $p$ cambia, richiedendo la Ipergeometrica.
+> La distribuzione ipergeometrica si utilizza quando vogliamo calcolare la probabilità di ottenere un certo numero di "successi" in un campione estratto da una popolazione finita,
+> senza reinserimento. A differenza della binomiale, qui le estrazioni non sono indipendenti: ogni volta che peschi un elemento, la composizione della popolazione cambia.
+> $$P(X = k) = \frac{\binom{K}{k} \cdot \binom{N-K}{n-k}}{\binom{N}{n}}$$
+
