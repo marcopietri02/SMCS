@@ -4,22 +4,25 @@ Raccolta strutturata di formule e concetti: dalla statistica descrittiva alla Li
 
 ## Indice
 
-Prima Parte
-    1. [Statistica Descrittiva](#1-statistica-descrittiva)
-    2. [Calcolo delle Probabilità](#2-calcolo-delle-probabilità)
-    3. [Variabili Casuali (V.C.)](#3-variabili-casuali-(v.c.))
-    4. [Distribuzioni Discrete](#4-distribuzioni-discrete)
-    5. [Distribuzioni Continue](#5-distribuzioni-continue)
-    6. [Approssimazioni e Relazioni](#6-approssimazioni-e-relazioni)
-    7. [Suggerimenti per l'Esame](#7-suggerimenti-per-l'esame)
+### Prima Parte
 
-Seconda Parte (Inferenza Statistica)
-    1. [Distribuzioni Continue Notevoli](#1-distribuzioni-continue-notevoli)
-    2. [Distribuzioni Campionarie](#2-distribuzioni-campionarie)
-    3. [Teoria della Stima](#3-teoria-della-stima)
-    4. [Intervalli di Confidenza (CI)](#4-intervalli-di-confidenza-(ci))
-    5. [Verifica di Ipotesi](#5-verifica-di-ipotesi)
-    6. [Linear Regression](#6-linear-regression)
+1. [Statistica Descrittiva](#1-statistica-descrittiva)
+2. [Calcolo delle Probabilità](#2-calcolo-delle-probabilità)
+3. [Variabili Casuali (V.C.)](#3-variabili-casuali-(v.c.))
+4. [Distribuzioni Discrete](#4-distribuzioni-discrete)
+5. [Distribuzioni Continue](#5-distribuzioni-continue)
+6. [Approssimazioni e Relazioni](#6-approssimazioni-e-relazioni)
+7. [Suggerimenti per l'Esame](#7-suggerimenti-per-l'esame)
+
+
+### Seconda Parte (Inferenza Statistica)
+
+1. [Distribuzioni Continue Notevoli](#1-distribuzioni-continue-notevoli)
+2. [Distribuzioni Campionarie](#2-distribuzioni-campionarie)
+3. [Teoria della Stima](#3-teoria-della-stima)
+4. [Intervalli di Confidenza (CI)](#4-intervalli-di-confidenza-(ci))
+5. [Verifica di Ipotesi](#5-verifica-di-ipotesi)
+6. [Linear Regression](#6-linear-regression)
 
 ---
 
