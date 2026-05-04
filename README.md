@@ -19,6 +19,11 @@ Il materiale all'interno copre l'intero programma del corso, con particolare att
 3.  **Variabili Casuali**: Studio di variabili discrete e continue, valori attesi e varianze.
 4.  **Distribuzioni Notevoli**: Bernoulli, Binomiale, Poisson, Normale, Chi-Quadro, t di Student e Fisher.
 5.  **Approssimazioni e Relazioni**: Metodi di passaggio tra distribuzioni diverse e proprietà asintotiche.
+6.  **Distribuzioni Campionarie**: Media Campionaria e Standard Error, Varianza Campionaria Corretta ($S^2$), Teorema del Limite Centrale (CLT), Proporzione Campionaria
+7.  **Teoria della Stima Puntuale**: Proprietà degli stimatori, Errore Quadratico Medio (MSE) e Bias, Metodo della Massima Verosimiglianza (MLE), Funzione di Log-Verosimiglianza e     Equazione di Score
+8.  **Stima per Intervallo (Intervalli di Confidenza)**: IC per la Media, IC per la Proporzione, IC per la Varianza della Popolazione
+9.  **Verifica di Ipotesi**: Logica del test, Interpretazione del p-value e processi decisionali, Statistiche Test (Z-test e T-test), Analisi degli Errori, Potenza del Test
+10.  **Linear Regression**
 
 ## 🛠 Come utilizzare questo materiale
 
