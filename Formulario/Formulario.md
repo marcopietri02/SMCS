@@ -1,8 +1,10 @@
 # Formulario Statistica
 
-Raccolta strutturata di formule e concetti: dalla statistica descrittiva alla distribuzione normale.
+Raccolta strutturata di formule e concetti: dalla statistica descrittiva alla Linear Regression.
 
 ## Indice
+
+### Prima Parte
 
 1. [Statistica Descrittiva](#1-statistica-descrittiva)
 2. [Calcolo delle Probabilità](#2-calcolo-delle-probabilità)
@@ -12,7 +14,19 @@ Raccolta strutturata di formule e concetti: dalla statistica descrittiva alla di
 6. [Approssimazioni e Relazioni](#6-approssimazioni-e-relazioni-fondamentali)
 7. [Suggerimenti per l'Esame](#7-suggerimenti-per-lesame)
 
+
+### Seconda Parte (Inferenza Statistica)
+
+1. [Distribuzioni Continue Notevoli](#1-distribuzioni-continue-notevoli)
+2. [Distribuzioni Campionarie](#2-distribuzioni-campionarie)
+3. [Teoria della Stima](#3-teoria-della-stima)
+4. [Intervalli di Confidenza (CI)](#4-intervalli-di-confidenza-(ci))
+5. [Verifica di Ipotesi](#5-verifica-di-ipotesi)
+6. [Linear Regression](#6-linear-regression)
+
 ---
+
+# Prima Parte
 
 ## 1. Statistica Descrittiva
 
@@ -268,3 +282,135 @@ _Utilizzata per sintetizzare i dati di un campione._
 | Popolazione finita, senza reinserimento | **Ipergeometrica**         |
 
 > **Nota:** La Binomiale richiede probabilità di successo costante ($p$). Senza reinserimento in popolazioni finite, $p$ cambia, richiedendo la Ipergeometrica.
+> La distribuzione ipergeometrica si utilizza quando vogliamo calcolare la probabilità di ottenere un certo numero di "successi" in un campione estratto da una popolazione finita,
+> senza reinserimento. A differenza della binomiale, qui le estrazioni non sono indipendenti: ogni volta che peschi un elemento, la composizione della popolazione cambia.
+> $$P(X = k) = \frac{\binom{K}{k} \cdot \binom{N-K}{n-k}}{\binom{N}{n}}$$
+
+---
+
+# Seconda Parte
+
+## 1. Distribuzioni Continue Notevoli
+
+### Distribuzione Normale $N(\mu, \sigma^2)$
+
+- **Funzione di Densità (PDF):** $f_X(x) = \frac{1}{\sqrt{2\pi\sigma^2}} e^{-\frac{1}{2}\frac{(x-\mu)^2}{\sigma^2}}$
+    
+- **Standardizzazione:** Se $X \sim N(\mu, \sigma^2)$, allora $Z = \frac{X - \mu}{\sigma} \sim N(0, 1)$
+    
+- **Proprietà Lineare:** $a + bX \sim N(a + b\mu, b^2\sigma^2)$
+    
+- **Regola Empirica:** $P(\mu \pm \sigma) \approx 68.27\%$, $P(\mu \pm 2\sigma) \approx 95.45\%$, $P(\mu \pm 3\sigma) \approx 99.73\%$
+    
+
+### Altre Distribuzioni Fondamentali
+
+| **Distribuzione** | **Parametri**     | **E[X]**                | **V[X]**                          | **Note**                                    |
+| ----------------- | ----------------- | ----------------------- | --------------------------------- | ------------------------------------------- |
+| **Uniforme**      | $U(a, b)$         | $\frac{a+b}{2}$         | $\frac{(b-a)^2}{12}$              | Densità costante $1/(b-a)$                  |
+| **Chi-Quadro**    | $\chi^2(\nu)$     | $\nu$                   | $2\nu$                            | Somma di $n$ variabili $Z^2$ indipendenti   |
+| **t di Student**  | $T(\nu)$          | $0$ (per $\nu>1$)       | $\frac{\nu}{\nu-2}$ (per $\nu>2$) | $T = Z / \sqrt{W/\nu}$                      |
+| **Fisher-F**      | $F(\nu_1, \nu_2)$ | $\frac{\nu_2}{\nu_2-2}$ | -                                 | Rapporto di due $\chi^2$ deviate per i d.f. |
+
+**Relazioni Cruciali:**
+
+- Se $Z \sim N(0,1)$, allora $Z^2 \sim \chi^2(1)$.
+    
+- Se $X \sim F(\nu_1, \nu_2)$, allora $1/X \sim F(\nu_2, \nu_1)$.
+    
+
+---
+
+## 2. Distribuzioni Campionarie
+
+- **Media Campionaria ($\bar{Y}$):** $E[\bar{Y}] = \mu$, $V[\bar{Y}] = \sigma^2/n$
+    
+- **Standard Error (SE):** $se(\bar{Y}) = \sigma/\sqrt{n}$. Se $\sigma$ è ignoto, si usa $s/\sqrt{n}$.
+    
+- **Varianza Campionaria Corretta ($S^2$):** $S^2 = \frac{\sum (Y_i - \bar{Y})^2}{n-1}$. È uno stimatore non distorto di $\sigma^2$.
+    
+- **Teorema del Limite Centrale (CLT):** Per $n \ge 30$, $\bar{Y}$ tende a una distribuzione Normale indipendentemente dalla distribuzione della popolazione.
+    
+- **Proporzione Campionaria ($\hat{p}$):** $E[\hat{p}] = p$, $V[\hat{p}] = \frac{p(1-p)}{n}$.
+    
+
+---
+
+## 3. Teoria della Stima
+
+### Proprietà degli Stimatori
+
+- **Non distorsione (Unbiasedness):** $E[\hat{\theta}] = \theta \implies Bias(\hat{\theta}) = 0$.
+    
+- **Consistenza:** $\hat{\theta} \xrightarrow{p} \theta$ al crescere di $n$.
+    
+- **Efficienza (MSE):** $MSE(\hat{\theta}) = E[(\hat{\theta} - \theta)^2] = V[\hat{\theta}] + [Bias(\hat{\theta})]^2$.
+    
+
+### Stima di Massima Verosimiglianza (MLE)
+
+1. **Funzione di Verosimiglianza:** $L(\theta) = \prod_{i=1}^n f(y_i | \theta)$.
+    
+2. **Log-Verosimiglianza:** $l(\theta) = \ln L(\theta)$.
+    
+3. **Equazione di Score:** $\frac{\partial l(\theta)}{\partial \theta} = 0 \implies$ si risolve per trovare $\hat{\theta}_{MLE}$.
+    
+
+---
+
+## 4. Intervalli di Confidenza (CI)
+
+### Per la Media $\mu$ (Popolazione Normale)
+
+- **$\sigma^2$ nota:** $CI = \bar{y} \pm z_{\alpha/2} \frac{\sigma}{\sqrt{n}}$
+    
+- **$\sigma^2$ incognita:** $CI = \bar{y} \pm t_{\alpha/2, n-1} \frac{s}{\sqrt{n}}$
+    
+
+### Per la Proporzione $p$ (Grandi Campioni)
+
+- $CI \approx \hat{p} \pm z_{\alpha/2} \sqrt{\frac{\hat{p}(1-\hat{p})}{n}}$
+    
+
+### Per la Varianza $\sigma^2$
+
+- $CI = \left[ \frac{(n-1)s^2}{\chi^2_{\alpha/2, n-1}}, \frac{(n-1)s^2}{\chi^2_{1-\alpha/2, n-1}} \right]$
+    
+
+---
+
+## 5. Verifica di Ipotesi
+
+### Struttura del Test
+
+- **Ipotesi:** $H_0$ (nulla) vs $H_a$ (alternativa).
+    
+- **p-value:** Probabilità di ottenere un risultato uguale o più estremo di quello osservato, assumendo $H_0$ vera.
+    
+    - $p \le \alpha \implies$ Rifiuto $H_0$.
+        
+    - $p > \alpha \implies$ Non rifiuto $H_0$.
+        
+
+### Statistiche Test
+
+- **Z-test (Media, $\sigma$ noto):** $z_{obs} = \frac{\bar{y} - \mu_0}{\sigma/\sqrt{n}}$
+    
+- **T-test (Media, $\sigma$ ignoto):** $t_{obs} = \frac{\bar{y} - \mu_0}{s/\sqrt{n}}$
+    
+- **Test Proporzione:** $z_{obs} = \frac{\hat{p} - p_0}{\sqrt{\frac{p_0(1-p_0)}{n}}}$
+    
+
+### Errori e Potenza
+
+- **Errore Tipo I ($\alpha$):** Rifiutare $H_0$ quando è vera (Significatività).
+    
+- **Errore Tipo II ($\beta$):** Non rifiutare $H_0$ quando è falsa.
+    
+- **Potenza del Test ($1-\beta$):** Capacità del test di rifiutare correttamente $H_0$ quando la verità è in $H_a$.
+
+---
+
+## 6. Linear Regression
+    
+DA FARE
