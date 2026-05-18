@@ -416,5 +416,66 @@ _Utilizzata per sintetizzare i dati di un campione._
 ---
 
 ## 6. Linear Regression
-    
-DA FARE
+
+### Definizione del Modello
+Il modello di regressione lineare esprime la variabile risposta $Y$ come somma di una componente sistematica (predittore lineare) e una componente d'errore casuale $\epsilon$.
+
+*   **Modello Teorico (Unità $i$):** $Y_i = \beta_0 + \beta_1 x_{i1} + \dots + \beta_p x_{ip} + \epsilon_i$.
+*   **Formulazione Matriciale:** $\mathbf{Y} = \mathbf{X}\boldsymbol{\beta} + \boldsymbol{\epsilon}$.
+    *   $\mathbf{Y}$: Vettore delle risposte ($n \times 1$).
+    *   $\mathbf{X}$: Matrice del disegno ($n \times (p+1)$), con la prima colonna di 1 per l'intercetta.
+    *   $\boldsymbol{\beta}$: Vettore dei parametri ($ (p+1) \times 1$).
+    *   $\boldsymbol{\epsilon}$: Vettore degli errori casuali.
+
+### Assunzioni del Modello (Gauss-Markov)
+Perché il modello sia valido, si assumono le seguenti proprietà per gli errori $\epsilon_i$:
+1.  **Media nulla:** $E[\epsilon_i] = 0$ per ogni $i$.
+2.  **Omoschedasticità:** $Var(\epsilon_i) = \sigma^2$ (varianza costante per tutte le unità).
+3.  **Assenza di correlazione:** $Cov(\epsilon_i, \epsilon_j) = 0$ per $i \neq j$.
+4.  **Normalità (per l'inferenza):** $\epsilon \sim N(\mathbf{0}, \sigma^2\mathbf{I})$.
+
+**Conseguenze sulla risposta $Y_i$:** $E[Y_i] = \mathbf{x}'_i\boldsymbol{\beta}$ e $Var(Y_i) = \sigma^2$.
+
+### Interpretazione dei Parametri
+*   **Intercetta ($\beta_0$):** Valore atteso di $Y$ quando tutti i predittori $x_k$ sono uguali a zero (interpretazione pratica solo se lo zero ha senso nel contesto).
+*   **Coefficiente parziale ($\beta_k$):** Variazione attesa nel valore medio di $Y$ per un aumento unitario di $x_k$, mantenendo costanti tutti gli altri predittori.
+
+### Variabili Categoriche e Dummy
+Se un predittore è qualitativo con $k$ categorie, si utilizzano **$k-1$ variabili dummy** (valori 0 o 1).
+*   Una categoria viene scelta come **riferimento** (tutte le dummy a 0).
+*   Il coefficiente della dummy rappresenta la differenza nella risposta media rispetto alla categoria di riferimento.
+
+### Stima dei Parametri ($\hat{\beta}$)
+I parametri vengono stimati con il metodo dei **Minimi Quadrati Ordinari (OLS)** o di **Massima Verosimiglianza (MLE)**, che portano allo stesso risultato sotto l'assunzione di normalità.
+
+*   **Equazioni Normali:** $(\mathbf{X}'\mathbf{X})\hat{\boldsymbol{\beta}} = \mathbf{X}'\mathbf{Y}$.
+*   **Stimatore OLS:** $\hat{\boldsymbol{\beta}} = (\mathbf{X}'\mathbf{X})^{-1}\mathbf{X}'\mathbf{Y}$.
+*   **Valori Adattati (Fitted):** $\hat{\mathbf{y}} = \mathbf{X}\hat{\boldsymbol{\beta}}$.
+*   **Residui:** $u_i = y_i - \hat{y}_i$.
+
+### Proprietà degli Stimatori
+*   **Non distorsione:** $E[\hat{\boldsymbol{\beta}}] = \boldsymbol{\beta}$.
+*   **Matrice di Covarianza:** $Cov(\hat{\boldsymbol{\beta}}) = \sigma^2(\mathbf{X}'\mathbf{X})^{-1}$.
+    *   La varianza del singolo coefficiente $\hat{\beta}_k$ è $\sigma^2 h_{kk}$, dove $h_{kk}$ è l'elemento diagonale della matrice $(\mathbf{X}'\mathbf{X})^{-1}$.
+
+### Analisi della Varianza e Bontà di Adattamento
+La variabilità totale di $Y$ ($SST$) viene scomposta in quota spiegata dal modello ($SSR$) e quota residua ($SSres$):
+*   $SST = \sum (y_i - \bar{y})^2$
+*   $SSR = \sum (\hat{y}_i - \bar{y})^2$
+*   $SSres = \sum (y_i - \hat{y}_i)^2 = \mathbf{u}'\mathbf{u}$
+
+**Indici di bontà:**
+*   **Coefficiente di determinazione ($R^2$):** $R^2 = \frac{SSR}{SST} = 1 - \frac{SSres}{SST}$. Rappresenta la proporzione di variabilità di $Y$ spiegata dal modello.
+*   **Stima della varianza dell'errore ($\hat{\sigma}^2$):** $\hat{\sigma}^2 = \frac{SSres}{n - p - 1}$.
+*   **$R^2$ corretto (Adjusted $R^2$):** $\bar{R}^2 = 1 - \left( \frac{n-1}{n-p-1} \right)(1 - R^2)$. Penalizza l'aggiunta di predittori non necessari.
+
+### Inferenza sui Parametri
+#### Test t individuale (Significatività del singolo coefficiente)
+*   **Ipotesi:** $H_0: \beta_k = 0$ vs $H_1: \beta_k \neq 0$.
+*   **Statistica Test:** $T = \frac{\hat{\beta}_k}{se(\hat{\beta}_k)} \sim t_{n-p-1}$, dove $se(\hat{\beta}_k) = \sqrt{\hat{\sigma}^2 h_{kk}}$.
+*   **Decisione:** Rifiuto $H_0$ se $|T| > t_{\alpha/2, n-p-1}$ o se il p-value $< \alpha$.
+
+#### Test F globale (Validità del modello)
+*   **Ipotesi:** $H_0: \beta_1 = \beta_2 = \dots = \beta_p = 0$ vs $H_1$: almeno un $\beta_k \neq 0$.
+*   **Statistica Test:** $F = \frac{SSR / p}{SSres / (n - p - 1)} \sim F_{p, n-p-1}$.
+*   **Significato:** Un valore di $F$ elevato indica che il modello ha un potere esplicativo significativo.
