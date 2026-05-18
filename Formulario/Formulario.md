@@ -20,7 +20,7 @@ Raccolta strutturata di formule e concetti: dalla statistica descrittiva alla Li
 1. [Distribuzioni Continue Notevoli](#1-distribuzioni-continue-notevoli)
 2. [Distribuzioni Campionarie](#2-distribuzioni-campionarie)
 3. [Teoria della Stima](#3-teoria-della-stima)
-4. [Intervalli di Confidenza (CI)](#4-intervalli-di-confidenza-(ci))
+4. [Intervalli di Confidenza (CI)](#4-intervalli-di-confidenza-ci)
 5. [Verifica di Ipotesi](#5-verifica-di-ipotesi)
 6. [Linear Regression](#6-linear-regression)
 
@@ -348,7 +348,7 @@ _Utilizzata per sintetizzare i dati di un campione._
     
 - **Efficienza (MSE):** $MSE(\hat{\theta}) = E[(\hat{\theta} - \theta)^2] = V[\hat{\theta}] + [Bias(\hat{\theta})]^2$.
 
-- **Relative efficiency of Z with respect to Y:** \frac{MSE(Y)}{MSE(Z)}
+- **Relative efficiency of Z with respect to Y:** $\frac{MSE(Y)}{MSE(Z)}$
     
 
 ### Stima di Massima Verosimiglianza (MLE)
