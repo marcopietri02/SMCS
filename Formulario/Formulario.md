@@ -340,6 +340,8 @@ _Utilizzata per sintetizzare i dati di un campione._
 
 ### Proprietà degli Stimatori
 
+- **Formula Bias:** Bias(\hat{\theta} = E[(\hat{\theta}] - \theta
+
 - **Non distorsione (Unbiasedness):** $E[\hat{\theta}] = \theta \implies Bias(\hat{\theta}) = 0$.
     
 - **Consistenza:** $\hat{\theta} \xrightarrow{p} \theta$ al crescere di $n$.
