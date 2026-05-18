@@ -347,6 +347,8 @@ _Utilizzata per sintetizzare i dati di un campione._
 - **Consistenza:** $\hat{\theta} \xrightarrow{p} \theta$ al crescere di $n$.
     
 - **Efficienza (MSE):** $MSE(\hat{\theta}) = E[(\hat{\theta} - \theta)^2] = V[\hat{\theta}] + [Bias(\hat{\theta})]^2$.
+
+- **Relative efficiency of Z with respect to Y:** \frac{MSE(Y)}{MSE(Z)}
     
 
 ### Stima di Massima Verosimiglianza (MLE)
