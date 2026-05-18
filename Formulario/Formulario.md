@@ -317,6 +317,10 @@ _Utilizzata per sintetizzare i dati di un campione._
 - Se $Z \sim N(0,1)$, allora $Z^2 \sim \chi^2(1)$.
     
 - Se $X \sim F(\nu_1, \nu_2)$, allora $1/X \sim F(\nu_2, \nu_1)$.
+
+- Punti di Flesso della Normale: Si trovano in $\mu - \sigma$ e $\mu + \sigma$.
+
+- Relazione $t$ e $F$: Se $X \sim T(\nu)$, allora $X^2 \sim F(1, \nu)$.
     
 
 ---
@@ -348,7 +352,7 @@ _Utilizzata per sintetizzare i dati di un campione._
     
 - **Efficienza (MSE):** $MSE(\hat{\theta}) = E[(\hat{\theta} - \theta)^2] = V[\hat{\theta}] + [Bias(\hat{\theta})]^2$.
 
-- **Relative efficiency of Z with respect to Y:** $\frac{MSE(Y)}{MSE(Z)}$
+- **Efficienza Relativa:** Rapporto tra le varianze di due stimatori non distorti: $Eff(\hat{\theta}_1, \hat{\theta}_2) = MSE[\hat{\theta}_2] / MSE[\hat{\theta}_1]$.
     
 
 ### Stima di Massima Verosimiglianza (MLE)
@@ -363,6 +367,12 @@ _Utilizzata per sintetizzare i dati di un campione._
 ---
 
 ## 4. Intervalli di Confidenza (CI)
+
+### Metodo del Pivot
+Procedura in tre passi: 
+1) Trovare una quantità pivotale $Q(\theta, Y)$ la cui distribuzione sia nota e indipendente da $\theta$;
+2) Trovare l'intervallo più corto per il pivot;
+3) Invertire l'intervallo rispetto a $\theta$.
 
 ### Per la Media $\mu$ (Popolazione Normale)
 
@@ -413,11 +423,14 @@ _Utilizzata per sintetizzare i dati di un campione._
     
 - **Potenza del Test ($1-\beta$):** Capacità del test di rifiutare correttamente $H_0$ quando la verità è in $H_a$.
 
+- **Relazione tra $\alpha$ e $\beta$:** Sono inversamente proporzionali; non è possibile minimizzarli entrambi simultaneamente.
+
 ---
 
 ## 6. Linear Regression
 
 ### Definizione del Modello
+
 Il modello di regressione lineare esprime la variabile risposta $Y$ come somma di una componente sistematica (predittore lineare) e una componente d'errore casuale $\epsilon$.
 
 *   **Modello Teorico (Unità $i$):** $Y_i = \beta_0 + \beta_1 x_{i1} + \dots + \beta_p x_{ip} + \epsilon_i$.
