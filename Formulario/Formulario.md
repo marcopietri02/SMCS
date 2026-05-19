@@ -379,6 +379,12 @@ Procedura in tre passi:
 - **$\sigma^2$ nota:** $CI = \bar{y} \pm z_{\alpha/2} \frac{\sigma}{\sqrt{n}}$
     
 - **$\sigma^2$ incognita:** $CI = \bar{y} \pm t_{\alpha/2, n-1} \frac{s}{\sqrt{n}}$
+
+Per usare la distribuzione T-Student, deve essere specificato che i dati provengano da una distribuzione Normale.
+(Se non è specificato si può aggiungere un commento nel compito, in cui questo assunzione viene fatta).
+Quindi:
+- campione molto grande -> si usa la distribuzione Normale
+- campione piccolo -> se i dati provengono da una distribuzione Normale, allora si può usare la distribuzione T-Student
     
 
 ### Per la Proporzione $p$ (Grandi Campioni)
