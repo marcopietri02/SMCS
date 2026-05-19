@@ -410,6 +410,28 @@ Quindi:
     - $p \le \alpha \implies$ Rifiuto $H_0$.
         
     - $p > \alpha \implies$ Non rifiuto $H_0$.
+
+### Calcolo p-value in base alla direzione del test
+
+La formula esatta del p-value cambia radicalmente a seconda di come hai impostato l'ipotesi alternativa ($H_1$).
+
+#### Test Monodirezionale Destro ($H_1: \mu > \mu_0$)
+
+Vuoi vedere se il tuo risultato è significativamente *maggiore* della media. Il p-value è l'area a **destra** della tua statistica test.
+
+* **Formula:** $\text{p-value} = P(Z > Z_{calc})$
+
+#### Test Monodirezionale Sinistro ($H_1: \mu < \mu_0$)
+
+Vuoi vedere se il tuo risultato è significativamente *minore*. Il p-value è l'area a **sinistra** della tua statistica test.
+
+* **Formula:** $\text{p-value} = P(Z < Z_{calc})$
+
+#### Test Bidirezionale ($H_1: \mu \neq \mu_0$)
+
+Vuoi vedere se c'è una differenza, non importa in quale direzione. Visto che la differenza può essere sia positiva che negativa, devi calcolare l'area della coda e **moltiplicarla per 2**.
+
+* **Formula:** $\text{p-value} = 2 \times P(Z > |Z_{calc}|)$
         
 
 ### Statistiche Test
