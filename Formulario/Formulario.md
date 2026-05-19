@@ -409,7 +409,7 @@ Quindi:
     
     - $p \lt \alpha \implies$ Rifiuto $H_0$.
         
-    - $p >= \alpha \implies$ Non rifiuto $H_0$.
+    - $p \ge \alpha \implies$ Non rifiuto $H_0$.
 
 ### Calcolo p-value in base alla Direzione del Test
 
