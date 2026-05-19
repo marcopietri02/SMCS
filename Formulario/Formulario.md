@@ -413,6 +413,76 @@ Procedura in tre passi:
 - **T-test (Media, $\sigma$ ignoto):** $t_{obs} = \frac{\bar{y} - \mu_0}{s/\sqrt{n}}$
     
 - **Test Proporzione:** $z_{obs} = \frac{\hat{p} - p_0}{\sqrt{\frac{p_0(1-p_0)}{n}}}$
+
+
+### Valore Critico nella Verifica d'Ipotesi
+
+#### Definizioni Fondamentali
+
+* **$\alpha$ (Livello di significatività):** Probabilità di errore di I tipo (rifiutare $H_0$ quando è vera).
+* **Valore Critico ($z_c, t_c, \chi^2_c$):** Il punto di soglia che delimita la regione di rifiuto.
+* **Statistica Test ($Z_{calc}, T_{calc}$):** Il valore calcolato dai dati del campione.
+
+#### Regola di Decisione (Standard)
+
+Si confronta la statistica calcolata ($Test_{calc}$) con il valore critico ($Soglia_c$):
+
+* **Test Bidirezionale:** Rifiuto $H_0$ se $|Test_{calc}| > |Soglia_c|$
+* **Test Monodirezionale Destro:** Rifiuto $H_0$ se $Test_{calc} > Soglia_c$
+* **Test Monodirezionale Sinistro:** Rifiuto $H_0$ se $Test_{calc} < -Soglia_c$
+
+#### Formule delle Statistiche Test Principali
+
+A. Test Z (Popolazione con varianza $\sigma^2$ nota, o grandi campioni $n > 30$)
+
+$$Z_{calc} = \frac{\bar{X} - \mu_0}{\frac{\sigma}{\sqrt{n}}}$$
+
+
+*(Dove $\bar{X}$ è la media campionaria, $\mu_0$ la media sotto $H_0$, $\sigma$ la deviazione standard della popolazione, $n$ l'ampiezza del campione).*
+
+B. Test t di Student (Varianza $\sigma^2$ ignota e piccoli campioni $n < 30$)
+
+$$T_{calc} = \frac{\bar{X} - \mu_0}{\frac{s}{\sqrt{n}}}$$
+
+*(Where $s$ è la deviazione standard campionaria. Gradi di libertà: $df = n - 1$).*
+
+
+#### Calcolo soglia critica con le Tavole Statistiche
+
+Per trovare la soglia ti servono tre dati di partenza:
+
+1. **Il tipo di distribuzione** ($Z$, $t$ di Student, $\chi^2$, $F$).
+2. **Il livello di significatività $\alpha$** (es. $0.05$ o $0.01$).
+3. **Il tipo di test** (Monodirezionale o Bidirezionale).
+
+##### Passo A1: Determina l'area della coda ($p$)
+
+Prima di aprire la tavola, devi capire che valore cercare in base al test:
+
+* **Test Monodirezionale (una coda):** Cerchi direttamente l'area $p = \alpha$.
+* **Test Bidirezionale (due code):** Devi dividere l'alfa a metà, quindi cerchi l'area $p = \frac{\alpha}{2}$.
+
+##### Passo B: Trova il valore sulla tavola
+
+**Caso 1: Distribuzione Z (Normale Standardizzata)**
+
+Le tavole $Z$ mostrano l'area *a sinistra* del punto o l'area *tra 0 e il punto*.
+
+* Se vuoi un test **bidirezionale con $\alpha = 0.05$**, l'area nella coda di destra deve essere $0.025$. L'area a sinistra di quel punto sarà $1 - 0.025 = 0.975$.
+* Cerchi il valore $0.975$ *all'interno* della tavola $Z$. Troverai che corrisponde all'incrocio tra la riga `1.9` e la colonna `0.06`.
+* **Soglia critica $z_c = \pm 1.96$**.
+
+**Caso 2: Distribuzione $t$ di Student (o $\chi^2$)**
+
+Queste tabelle sono più semplici perché hanno già i livelli di significatività nelle colonne. Ti servono però i **Gradi di Libertà ($df$)**, che per un test a un campione sono $df = n - 1$ (dove $n$ è il numero di osservazioni).
+
+* *Esempio:* Test $t$ bidirezionale, $\alpha = 0.05$, ampiezza campione $n = 11$ ($\implies df = 10$).
+* Prendi la tavola della $t$ di Student.
+* Incrocia la colonna dei test bidirezionali a $0.05$ (oppure una coda a $0.025$) con la riga $df = 10$.
+* **Soglia critica $t_c = \pm 2.228$**.
+
+> **Riassunto operativo per il tuo formulario:**
+> Per calcolare la soglia critica devi isolare geometricamente l'area $\alpha$ (o $\alpha/2$) all'estremo della curva. Per farlo usi la funzione inversa della tua distribuzione, inserendo come input i gradi di libertà (se richiesti) e l'area della coda desiderata.
     
 
 ### Errori e Potenza
