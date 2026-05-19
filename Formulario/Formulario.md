@@ -407,11 +407,11 @@ Quindi:
     
 - **p-value:** Probabilità di ottenere un risultato uguale o più estremo di quello osservato, assumendo $H_0$ vera.
     
-    - $p \le \alpha \implies$ Rifiuto $H_0$.
+    - $p \lt \alpha \implies$ Rifiuto $H_0$.
         
-    - $p > \alpha \implies$ Non rifiuto $H_0$.
+    - $p >= \alpha \implies$ Non rifiuto $H_0$.
 
-### Calcolo p-value in base alla direzione del test
+### Calcolo p-value in base alla Direzione del Test
 
 La formula esatta del p-value cambia radicalmente a seconda di come hai impostato l'ipotesi alternativa ($H_1$).
 
