@@ -438,13 +438,13 @@ A. Test Z (Popolazione con varianza $\sigma^2$ nota, o grandi campioni $n > 30$)
 $$Z_{calc} = \frac{\bar{X} - \mu_0}{\frac{\sigma}{\sqrt{n}}}$$
 
 
-*(Dove $\bar{X}$ è la media campionaria, $\mu_0$ la media sotto $H_0$, $\sigma$ la deviazione standard della popolazione, $n$ l'ampiezza del campione).*
+Dove $\bar{X}$ è la media campionaria, $\mu_0$ la media sotto $H_0$, $\sigma$ la deviazione standard della popolazione, $n$ l'ampiezza del campione.
 
 B. Test t di Student (Varianza $\sigma^2$ ignota e piccoli campioni $n < 30$)
 
 $$T_{calc} = \frac{\bar{X} - \mu_0}{\frac{s}{\sqrt{n}}}$$
 
-*(Where $s$ è la deviazione standard campionaria. Gradi di libertà: $df = n - 1$).*
+Dove $s$ è la deviazione standard campionaria. Gradi di libertà: $df = n - 1$.
 
 
 #### Calcolo soglia critica con le Tavole Statistiche
@@ -455,7 +455,7 @@ Per trovare la soglia ti servono tre dati di partenza:
 2. **Il livello di significatività $\alpha$** (es. $0.05$ o $0.01$).
 3. **Il tipo di test** (Monodirezionale o Bidirezionale).
 
-##### Passo A1: Determina l'area della coda ($p$)
+##### Passo A: Determina l'area della coda ($p$)
 
 Prima di aprire la tavola, devi capire che valore cercare in base al test:
 
