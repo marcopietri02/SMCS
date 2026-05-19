@@ -455,14 +455,14 @@ Per trovare la soglia ti servono tre dati di partenza:
 2. **Il livello di significatività $\alpha$** (es. $0.05$ o $0.01$).
 3. **Il tipo di test** (Monodirezionale o Bidirezionale).
 
-##### Passo A: Determina l'area della coda ($p$)
+**Passo A: Determina l'area della coda ($p$)**
 
 Prima di aprire la tavola, devi capire che valore cercare in base al test:
 
 * **Test Monodirezionale (una coda):** Cerchi direttamente l'area $p = \alpha$.
 * **Test Bidirezionale (due code):** Devi dividere l'alfa a metà, quindi cerchi l'area $p = \frac{\alpha}{2}$.
 
-##### Passo B: Trova il valore sulla tavola
+**Passo B: Trova il valore sulla tavola**
 
 **Caso 1: Distribuzione Z (Normale Standardizzata)**
 
