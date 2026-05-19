@@ -582,21 +582,26 @@ La variabilità totale di $Y$ ($SST$) viene scomposta in quota spiegata dal mode
 
 ### Inferenza sui Parametri
 #### Test t individuale (Significatività del singolo coefficiente)
+
 **Ipotesi:**
-$H_0: \beta_k = 0$ rispetto a $H_1: \beta_k \neq 0$
+
+$H_0: \beta_k = 0$ vs $H_1: \beta_k \neq 0$
 
 **Statistica Test:**
+
 $$
 T = \frac{\hat{\beta}_k}{\text{se}(\hat{\beta}_k)} \sim t_{n-p-1}
 $$
 
-dove l'errore standard è calcolato come:
+dove:
+
 $$
 \text{se}(\hat{\beta}_k) = \sqrt{\hat{\sigma}^2 h_{kk}}
 $$
 
 **Decisione:**
-Rifiuto $H_0$ se $|T| > t_{\alpha/2, n-p-1}$ oppure se il p-value $< \alpha$.
+
+Rifiuto $H_0$ se $|T| > t_{\alpha/2, n-p-1}$ o se il p-value $< \alpha$.
 
 #### Test F globale (Validità del modello)
 *   **Ipotesi:** $H_0: \beta_1 = \beta_2 = \dots = \beta_p = 0$ vs $H_1$: almeno un $\beta_k \neq 0$.
