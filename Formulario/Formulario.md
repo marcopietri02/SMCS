@@ -380,8 +380,8 @@ Procedura in tre passi:
 * **$\sigma^2$ INCOGNITA**
     * **$n \ge 30$** $\rightarrow$ **$Z$** *(per il Teorema del Limite Centrale)*
     * **$n < 30$** (Campione piccolo)
-    * Dati da popolazione **normale** $\rightarrow$ **$T$** *(t di Student)*
-    * Dati da popolazione **NON normale** $\rightarrow$ *Oblio cosmico cybernetico* 🕳️
+        * Dati da popolazione **normale** $\rightarrow$ **$T$** *(t di Student)*
+        * Dati da popolazione **NON normale** $\rightarrow$ *Oblio cosmico cybernetico* 🕳️
 
 ### Per la Media $\mu$ (Popolazione Normale)
 
