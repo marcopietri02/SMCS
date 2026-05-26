@@ -374,6 +374,15 @@ Procedura in tre passi:
 2) Trovare l'intervallo più corto per il pivot;
 3) Invertire l'intervallo rispetto a $\theta$.
 
+### Scelta del Pivot
+
+* **$\sigma^2$ NOTA** $\rightarrow$ **$Z$**
+* **$\sigma^2$ INCOGNITA**
+    * **$n \ge 30$** $\rightarrow$ **$Z$** *(per il Teorema del Limite Centrale)*
+    * **$n < 30$** (Campione piccolo)
+    * Dati da popolazione **normale** $\rightarrow$ **$T$** *(t di Student)*
+    * Dati da popolazione **NON normale** $\rightarrow$ *Oblio cosmico cybernetico* 🕳️
+
 ### Per la Media $\mu$ (Popolazione Normale)
 
 - **$\sigma^2$ nota:** $CI = \bar{y} \pm z_{\alpha/2} \frac{\sigma}{\sqrt{n}}$
