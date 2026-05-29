@@ -578,7 +578,7 @@ I parametri vengono stimati con il metodo dei **Minimi Quadrati Ordinari (OLS)**
 ### Proprietà degli Stimatori
 *   **Non distorsione:** $E[\hat{\boldsymbol{\beta}}] = \boldsymbol{\beta}$.
 *   **Matrice di Covarianza:** $Cov(\hat{\boldsymbol{\beta}}) = \sigma^2(\mathbf{X}'\mathbf{X})^{-1}$.
-    *   La varianza del singolo coefficiente $\hat{\beta}_k$ è $\sigma^2 h_{kk}$, dove $h_{kk}$ è l'elemento diagonale della matrice $(\mathbf{X}'\mathbf{X})^{-1}$.
+    *   La varianza del singolo coefficiente $\hat{\beta}_k = \sigma^2 h_{kk}$, dove $h_{kk}$ è l'elemento diagonale della matrice $(\mathbf{X}'\mathbf{X})^{-1}$.
 
 ### Analisi della Varianza e Bontà di Adattamento
 La variabilità totale di $Y$ ($SST$) viene scomposta in quota spiegata dal modello ($SSR$) e quota residua ($SSres$):
