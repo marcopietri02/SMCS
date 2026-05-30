@@ -526,9 +526,9 @@ Queste tabelle sono più semplici perché hanno già i livelli di significativit
 
 ### Errori e Potenza
 
-- **Errore Tipo I ($\alpha$):** Rifiutare $H_0$ quando è vera (Significatività).
+- **Errore Tipo I ($\alpha$):** Rifiutare $H_0$ quando è vera (Significatività). $\alpha = P(R_{H_0} \mid H_0 \text{ vera})$.
 
-- **Errore Tipo II ($\beta$):** Non rifiutare $H_0$ quando è falsa.
+- **Errore Tipo II ($\beta$):** Non rifiutare $H_0$ quando è falsa. $\beta = P(\bar{R}_{H_0} \mid H_1 \text{ vera})$.
 
 - **Potenza del Test ($1-\beta$):** Capacità del test di rifiutare correttamente $H_0$ quando la verità è in $H_a$.
 
