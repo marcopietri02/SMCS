@@ -350,6 +350,8 @@ _Utilizzata per sintetizzare i dati di un campione._
 
 - **Consistenza:** $\hat{\theta} \xrightarrow{p} \theta$ al crescere di $n$.
 
+- **Condizione Sufficiente per la Consistenza:** $$\lim_{n \to \infty} E[\hat{\theta}] = \theta \quad \text{e} \quad \lim_{n \to \infty} \text{Var}(\hat{\theta}) = 0 \qquad \left(\implies \lim_{n \to \infty} \text{MSE}(\hat{\theta}) = 0\right)$$
+
 - **Efficienza (MSE):** $MSE(\hat{\theta}) = E[(\hat{\theta} - \theta)^2] = V[\hat{\theta}] + [Bias(\hat{\theta})]^2$.
 
 - **Efficienza Relativa:** Rapporto tra le varianze di due stimatori non distorti: $Eff(\hat{\theta}_1, \hat{\theta}_2) = MSE[\hat{\theta}_2] / MSE[\hat{\theta}_1]$.
